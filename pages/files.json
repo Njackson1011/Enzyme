@@ -1,0 +1,527 @@
+[
+    {
+        "title": "Archos",
+        "type": 0,
+        "path": "C:\\autostart\\Archos.appref-ms",
+        "error": "applications shipment software place new order shift4 shift 4 customer merchant",
+        "name": "enzyme my laptop pc application program"
+    },
+    {
+        "title": "Avaya",
+        "type": 0,
+        "path": "C:\\autostart\\Avaya.lnk",
+        "error": "applications phones shift 4 shift4 system call log",
+        "name": "enzyme my laptop pc application program"
+    },
+    {
+        "title": "BatchFileBackup",
+        "type": 0,
+        "path": "C:\\autostart\\batchfilehome\\BatchFileBackup.BAT",
+        "error": "perform make daily backup BatchFileBackup",
+        "name": "enzyme my laptop pc file"
+    },
+    {
+        "title": "ButtonLogViewer",
+        "type": -1,
+        "path": "C:\\autostart\\RM Utilities\\ButtonLogViewer.zip",
+        "error": "button log viewer buttonlogviewer employee show actions order steps",      
+        "name": "rm restaurant manager utility utilities"
+    },
+    {
+        "title": "Chrome",
+        "type": 0,
+        "path": "C:\\autostart\\chrome.lnk",
+        "error": "applications google chrome web browser search",
+        "name": "enzyme my laptop pc application program"
+    },
+    {
+        "title": "Cisco",
+        "type": 0,
+        "path": "C:\\autostart\\Cisco.lnk",
+        "error": "applications vpn network",
+        "name": "enzyme my laptop pc application program"
+    },
+    {
+        "title": "DailyBackup(Configurable)",
+        "type": 0,
+        "path": "C:\\autostart\\batchfilehome\\DailyBackup(Configurable).BAT",
+        "error": "perform make daily backup configurable DailyBackup",
+        "name": "enzyme my laptop pc file"
+    },
+    {
+        "title": "DBFNavigator",
+        "type": -1,
+        "path": "C:\\autostart\\RM Utilities\\DBFNavigator.ZIP",
+        "error": "dbf database navigator DBFNavigator manager management copy copier manipulator",      
+        "name": "rm restaurant manager utility utilities"
+    },
+    {
+        "title": "DFBforEnzyme",
+        "type": 0,
+        "path": "C:\\autostart\\batchfilehome\\DFBforEnzyme.BAT",
+        "error": "perform make daily backup DFB DFBforEnzyme",
+        "name": "enzyme my laptop pc file"
+    },
+    {
+        "title": "FingerPrintDP",
+        "type": -1,
+        "path": "C:\\autostart\\RM Utilities\\FingerPrintDP.ZIP",
+        "error": "fingerprint finger print readers biometrics FingerPrintDP",      
+        "name": "rm restaurant manager utility utilities drivers"
+    },
+    {
+        "title": "HowTosOfRM",
+        "type": -1,
+        "path": "C:\\autostart\\RM Utilities\\How to's of RM.ZIP",
+        "error": "knowledgebase instructionals HowTosOfRM customer facing",      
+        "name": "rm restaurant manager help how to howto utilities utility"
+    },
+    {
+        "title": "INFO",
+        "type": -1,
+        "path": "C:\\autostart\\batchfilehome\\INFO.BAT",
+        "error": "overview information version",
+        "name": "enzyme my laptop pc info file document"
+    },
+    {
+        "title": "LocalBackupFiles",
+        "type": -1,
+        "path":"",
+        "error": "perform make local network system rmwin new server station backups LocalBackupFiles",      
+        "name": "rm restaurant manager utility utilities"
+    },
+    {
+        "title": "LMIIgnition",
+        "type": 0,
+        "path":"",
+        "error": "applications lmi log me in logmein remote access connection software",
+        "name": "enzyme my laptop pc application program"
+    },
+    {
+        "title": "MenuCopyFullC",
+        "type": 1,
+        "path":"C:\\autostart\\batchfilehome\\MenuCopyFullC.BAT",
+        "error": "crashed bad corrupt down new install hard drive server rmwin files copy menu setup changeout station configuration swap replacement",
+        "name": "rm restaurant manager file"
+    },
+    {
+        "title": "MenuCopyFullD",
+        "type": 2,
+        "path":"C:\\autostart\\batchfilehome\\MenuCopyFullD.BAT",
+        "error": "crashed bad corrupt down new install hard drive server rmwin files copy menu setup changeout station configuration swap replacement",
+        "name": "rm restaurant manager file"
+    },
+    {
+        "title": "MenuCopyFullE",
+        "type": 3,
+        "path":"C:\\autostart\\batchfilehome\\MenuCopyFullE.BAT",
+        "error": "crashed bad corrupt down new install hard drive server rmwin files copy menu setup changeout station configuration swap replacement",
+        "name": "rm restaurant manager file"
+    },
+    {
+        "title": "MenuCopyFullF",
+        "type": 4,
+        "path":"C:\\autostart\\batchfilehome\\MenuCopyFullF.BAT",
+        "error": "crashed bad corrupt down new install hard drive server rmwin files copy menu setup changeout station configuration swap replacement",
+        "name": "rm restaurant manager file"
+    },
+    {
+        "title": "MenuCopyFullHowTo",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\MenuCopyFullHowTo.BAT",
+        "error": "crashed bad corrupt down new install hard drive server rmwin files copy menu setup changeout station configuration swap replacement",
+        "name": "rm restaurant manager help how to howto file document"
+    },
+    {
+        "title": "MSEdge",
+        "type": 0,
+        "path":"C:\\autostart\\MSEdge.lnk",
+        "error": "applications microsoft edge web browser search",
+        "name": "enzyme my laptop pc application program"
+    },
+    {
+        "title": "OfflineSSL",
+        "type": -1,
+        "path":"C:\\autostart\\RM Utilities\\OfflineSSL.ZIP",
+        "error": "network system rmwin backups utg Offline SSL dll files crashed bad corrupt down new install hard drive server https processing setup changeout station configuration swap replacement",      
+        "name": "rm restaurant manager s4 shift4 utilities utility"
+    },
+    {
+        "title": "PrinterUtilitieswithQR",
+        "type": -1,
+        "path":"C:\\autostart\\RM Utilities\\PrinterUtilitieswithQR.ZIP",
+        "error": "installation receipt kitchen printers drivers qr code drivers bixolon epson snbc munbyn PrinterUtilitieswithQR new",      
+        "name": "rm restaurant manager utilities utility"
+    },
+    {
+        "title": "ResetLogMeIn",
+        "type": 0,
+        "path":"C:\\autostart\\batchfilehome\\ResetLogMeIn.BAT",
+        "error": "ResetLogMeIn laptop tasks logmein log me in frozen freezes freezing stopped working remote access software",
+        "name": "enzyme my laptop pc file"
+    },
+    {
+        "title": "ResetSplashtop",
+        "type": 0,
+        "path":"C:\\autostart\\batchfilehome\\ResetSplashtop.BAT",
+        "error": "ResetSplashtop laptop tasks logmein log me in frozen freezes freezing stopped working remote access software",
+        "name": "enzyme my laptop pc file"
+    },
+    {
+        "title": "ResetOnlineOrdering",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\ResetOnlineOrdering.BAT",
+        "error": "online ordering oo olo dropping cancelling orders frozen freezes bitvise rmsoapserver service customer facing",
+        "name": "rm restaurant manager file"
+    },
+    {
+        "title": "ResetOnlineOrderingHowTo",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\ResetOnlineOrderingHowTo.BAT",
+        "error": "online ordering oo olo dropping cancelling orders frozen freezes bitvise rmsoapserver service ResetOnlineOrdering",
+        "name": "rm restaurant manager help how to howto file document"
+    },
+    {
+        "title": "ResetUTGSoftwareAUTO",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\ResetUTGSoftwareAUTO.BAT",
+        "error": "reset software lane closed transactions stuck mode customer facing network system rmwin backups utg Offline frozen crashed bad corrupt down new install hard drive server https processing setup changeout station configuration swap replacement",
+        "name": "utg shift4 s4 file"
+    },
+    {
+        "title": "ResetUTGSoftwareTECH",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\ResetUTGSoftwareTECH.BAT",
+        "error": "reset software lane closed transactions stuck mode technician network system rmwin backups utg Offline frozen crashed bad corrupt down new install hard drive server https processing setup changeout station configuration swap replacement",
+        "name": "utg shift4 s4 file"
+    },
+    {
+        "title": "ResetUTGSoftwareHowTo",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\ResetUTGSoftwareHowTo.BAT",
+        "error": "reset software lane closed transactions stuck mode customer technician facing network system rmwin backups utg Offline frozen crashed bad corrupt down new install hard drive server https processing setup changeout station configuration swap replacement",      
+        "name": "utg shift4 s4 help how to howto file document"
+    },
+    {
+        "title": "RMDeleteData",
+        "type": -1,
+        "path":"C:\\autostart\\RM Utilities\\RMDeleteData.ZIP",
+        "error": "RMDeleteData rmwin installation delete data manipulation manipulator bad corrupt new hard drive server setup changeout station configuration swap replacement",      
+        "name": "rm restaurant manager utilities utility"
+    },
+    {
+        "title": "RMClearC",
+        "type": 1,
+        "path":"C:\\autostart\\batchfilehome\\RMClearC.BAT",
+        "error": "Clear payment stuck system unique identifier employee 0 cannot pmt error finalize check add tip transaction tab stuck system table delivery",      
+        "name": "rm restaurant manager file"
+    },
+    {
+        "title": "RMClearCRS",
+        "type": 5,
+        "path":"C:\\autostart\\batchfilehome\\RMClearCRS.BAT",
+        "error": "Clear payment stuck system unique identifier employee 0 cannot pmt error finalize check add tip transaction tab stuck system table delivery",      
+        "name": "rm restaurant manager file"
+    },
+    {
+        "title": "RMClearD",
+        "type": 2,
+        "path":"C:\\autostart\\batchfilehome\\RMClearD.BAT",
+        "error": "Clear payment stuck system unique identifier employee 0 cannot pmt error finalize check add tip transaction tab stuck system table delivery",      
+        "name": "rm restaurant manager file"
+    },
+    {
+        "title": "RMClearE",
+        "type": 3,
+        "path":"C:\\autostart\\batchfilehome\\RMClearE.BAT",
+        "error": "Clear payment stuck system unique identifier employee 0 cannot pmt error finalize check add tip transaction tab stuck system table delivery",      
+        "name": "rm restaurant manager file"
+    },
+    {
+        "title": "RMClearF",
+        "type": 4,
+        "path":"C:\\autostart\\batchfilehome\\RMClearF.BAT",
+        "error": "Clear payment stuck system unique identifier employee 0 cannot pmt error finalize check add tip transaction tab stuck system table delivery",      
+        "name": "rm restaurant manager file"
+    },
+    {
+        "title": "RMClearGIBBS",
+        "type": 6,
+        "path":"C:\\autostart\\batchfilehome\\RMClearGIBBS.BAT",
+        "error": "Clear payment stuck system unique identifier employee 0 cannot pmt error finalize check add tip transaction tab stuck system table delivery",      
+        "name": "rm restaurant manager file"
+    },
+    {
+        "title": "RMClearXHowTo",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\RMClearXHowTo.BAT",
+        "error": "Clear payment stuck system unique identifier employee 0 cannot pmt error finalize check add tip transaction tab stuck system table delivery",
+        "name": "rm restaurant manager help how to howto file document"
+    },
+    {
+        "title": "RMIndexC",
+        "type": 1,
+        "path":"C:\\autostart\\batchfilehome\\RMIndexC.BAT",
+        "error": "reindex retrying index dbf failure stack list corruption station rmstart spooler cannot define printers sls ntx menu error",      
+        "name": "rm restaurant manager file"
+    },
+    {
+        "title": "RMIndexCRS",
+        "type": 5,
+        "path":"C:\\autostart\\batchfilehome\\RMIndexCRS.BAT",
+        "error": "reindex retrying index dbf failure stack list corruption station rmstart spooler cannot define printers sls ntx menu error",      
+        "name": "rm restaurant manager file"
+    },
+    {
+        "title": "RMIndexD",
+        "type": 2,
+        "path":"C:\\autostart\\batchfilehome\\RMIndexD.BAT",
+        "error": "reindex retrying index dbf failure stack list corruption station rmstart spooler cannot define printers sls ntx menu error",      
+        "name": "rm restaurant manager file"
+    },
+	{
+        "title": "RMIndexE",
+        "type": 3,
+        "path":"C:\\autostart\\batchfilehome\\RMIndexE.BAT",
+        "error": "reindex retrying index dbf failure stack list corruption station rmstart spooler cannot define printers sls ntx menu error",      
+        "name": "rm restaurant manager file"
+    },
+	{
+        "title": "RMIndexF",
+        "type": 4,
+        "path":"C:\\autostart\\batchfilehome\\RMIndexF.BAT",
+        "error": "reindex retrying index dbf failure stack list corruption station rmstart spooler cannot define printers sls ntx menu error",      
+        "name": "rm restaurant manager file"
+    },
+	{
+        "title": "RMIndexGIBBS",
+        "type": 6,
+        "path":"C:\\autostart\\batchfilehome\\RMIndexGIBBS.BAT",
+        "error": "reindex retrying index dbf failure stack list corruption station rmstart spooler cannot define printers sls ntx menu error",      
+        "name": "rm restaurant manager file"
+    },
+    {
+        "title": "RMIndexXHowTo",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\RMIndexXHowTo.BAT",
+        "error": "reindex retrying index dbf failure stack list corruption station rmstart spooler cannot define printers sls ntx menu error",      
+        "name": "rm restaurant manager help how to howto file document"
+    },
+    {
+        "title": "RMMaintenanceC",
+        "type": 1,
+        "path":"C:\\autostart\\batchfilehome\\RMMaintenanceC.BAT",
+        "error": "perform maintenance upgrade update frozen crashed bad down install hard drive server https processing changeout configuration swap replacement dbf failure stack list corruption station rmstart spooler cannot define printers new system unique identifier employee 0 finalize sls pmt ntx error menu setup tab table delivery",      
+        "name": "rm restaurant manager file"
+    },
+    {
+        "title": "RMMaintenanceCRS",
+        "type": 5,
+        "path":"C:\\autostart\\batchfilehome\\RMMaintenanceCRS.BAT",
+        "error": "perform maintenance upgrade update frozen crashed bad down install hard drive server https processing changeout configuration swap replacement dbf failure stack list corruption station rmstart spooler cannot define printers new system unique identifier employee 0 finalize sls pmt ntx error menu setup tab table delivery",      
+        "name": "rm restaurant manager file"
+    },
+    {
+        "title": "RMMaintenanceD",
+        "type": 2,
+        "path":"C:\\autostart\\batchfilehome\\RMMaintenanceD.BAT",
+        "error": "perform maintenance upgrade update frozen crashed bad down install hard drive server https processing changeout configuration swap replacement dbf failure stack list corruption station rmstart spooler cannot define printers new system unique identifier employee 0 finalize sls pmt ntx error menu setup tab table delivery",      
+        "name": "rm restaurant manager file"
+    },
+    {
+        "title": "RMMaintenanceE",
+        "type": 3,
+        "path":"C:\\autostart\\batchfilehome\\RMMaintenanceE.BAT",
+        "error": "perform maintenance upgrade update frozen crashed bad down install hard drive server https processing changeout configuration swap replacement dbf failure stack list corruption station rmstart spooler cannot define printers new system unique identifier employee 0 finalize sls pmt ntx error menu setup tab table delivery",      
+        "name": "rm restaurant manager file"
+    },
+    {
+        "title": "RMMaintenanceF",
+        "type": 4,
+        "path":"C:\\autostart\\batchfilehome\\RMMaintenanceF.BAT",
+        "error": "perform maintenance upgrade update frozen crashed bad down install hard drive server https processing changeout configuration swap replacement dbf failure stack list corruption station rmstart spooler cannot define printers new system unique identifier employee 0 finalize sls pmt ntx error menu setup tab table delivery",      
+        "name": "rm restaurant manager file"
+    },
+    {
+        "title": "RMMaintenanceGIBBS",
+        "type": 6,
+        "path":"C:\\autostart\\batchfilehome\\RMMaintenanceGIBBS.BAT",
+        "error": "perform maintenance upgrade update frozen crashed bad down install hard drive server https processing changeout configuration swap replacement dbf failure stack list corruption station rmstart spooler cannot define printers new system unique identifier employee 0 finalize sls pmt ntx error menu setup tab table delivery",      
+        "name": "rm restaurant manager file"
+    },
+    {
+        "title": "RMMaintenanceXHowTo",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\RMMaintenanceXHowTo.BAT",
+        "error": "perform maintenance upgrade update frozen crashed bad down install hard drive server https processing changeout configuration swap replacement dbf failure stack list corruption station rmstart spooler cannot define printers new system unique identifier employee 0 finalize sls pmt ntx error menu setup tab table delivery",      
+        "name": "rm restaurant manager help how to howto file document"
+    },
+    {
+        "title": "RMPassCode",
+        "type": 0,
+        "path":"C:\\autostart\\RMPassCode.lnk",
+        "error": "RMPassCode rmwin daily password pass word code generator generate",      
+        "name": "rm restaurant manager application program"
+    },
+    {
+        "title": "RMServerTaskKiller",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\RMServerTaskKiller.BAT",
+        "error": "RMServerTaskKiller kill running active tasks services upgrade update frozen crashed bad corrupt down new install hard drive server https processing setup changeout station configuration swap replacement",      
+        "name": "rm restaurant manager file"
+    },
+    {
+        "title": "RMStationRebootTaskServer",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\RMStationRebootTaskServer.BAT",
+        "error": "Reboot restart running active networked stations frozen upgrade update crashed bad corrupt down new install hard drive server https processing setup changeout station configuration swap replacement",      
+        "name": "rm restaurant manager file"
+    },
+    {
+        "title": "RMStationRebootTaskStation1",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\RMStationRebootTaskStation1.BAT",
+        "error": "Reboot restart running active networked stations frozen upgrade update crashed bad corrupt down new install hard drive server https processing setup changeout station configuration swap replacement",      
+        "name": "rm restaurant manager file"
+    },
+    {
+        "title": "RMStationRebootTaskStation2",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\RMStationRebootTaskStation2.BAT",
+        "error": "Reboot restart running active networked stations frozen upgrade update crashed bad corrupt down new install hard drive server https processing setup changeout station configuration swap replacement",      
+        "name": "rm restaurant manager file"
+    },
+    {
+        "title": "RMStationRebootTaskStation3",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\RMStationRebootTaskStation3.BAT",
+        "error": "Reboot restart running active networked stations frozen upgrade update crashed bad corrupt down new install hard drive server https processing setup changeout station configuration swap replacement",      
+        "name": "rm restaurant manager file"
+    },
+    {
+        "title": "RMStationRebootTaskStation4",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\RMStationRebootTaskStation4.BAT",
+        "error": "Reboot restart running active networked stations frozen upgrade update crashed bad corrupt down new install hard drive server https processing setup changeout station configuration swap replacement",      
+        "name": "rm restaurant manager file"
+    },
+    {
+        "title": "RMStationRebootHowTo",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\RMStationRebootHowTo.BAT",
+        "error": "Reboot restart running active networked stations frozen upgrade update crashed bad corrupt down new install hard drive server https processing setup changeout station configuration swap replacement",      
+        "name": "rm restaurant manager help how to howto file document"
+    },
+    {
+        "title": "RMWriteups",
+        "type": -1,
+        "path":"C:\\autostart\\RM Utilities\\RMWriteups.ZIP",
+        "error": "RMWriteups knowledgebase instructionals technician",      
+        "name": "rm restaurant manager help how to howto file document"
+    },
+    {
+        "title": "RMUpdate",
+        "type": -1,
+        "path":"C:\\autostart\\RM Utilities\\RM Update.ZIP",
+        "error": "perform maintenance upgrade update frozen crashed bad down install hard drive server https processing changeout configuration swap replacement dbf failure stack list corruption station rmstart spooler cannot define printers new system unique identifier employee 0 finalize sls pmt ntx error menu setup tab table delivery",      
+        "name": "rm restaurant manager utilities utility"
+    },
+    {
+        "title": "SkyTabMobile500Fix",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\SkyTabMobile500Fix.BAT",
+        "error": "reset mozart poslink 500 error frozen skytab integration issues problems software customer facing",
+        "name": "shift4 s4 file"
+    },
+    {
+        "title": "SnippingTool",
+        "type": 0,
+        "path":"C:\\autostart\\SnippingTool.lnk",
+        "error": "applications snapshots screenshots captures",
+        "name": "enzyme my laptop pc application program"
+    },
+    {
+        "title": "Splashtop",
+        "type": 0,
+        "path":"C:\\autostart\\Splashtop.lnk",
+        "error": "applications splashtop remote access connection software",
+        "name": "enzyme my laptop pc application program"
+    },
+    {
+        "title": "StartDailyTasks",
+        "type": 0,
+        "path":"C:\\autostart\\batchfilehome\\StartDailyTasks.BAT",
+        "error": "StartDailyTasks begin shift start day",
+        "name": "enzyme my laptop pc file"
+    },
+    {
+        "title": "StartDailyLockdown",
+        "type": 0,
+        "path":"C:\\autostart\\batchfilehome\\StartDailyLockdown.BAT",
+        "error": "shutdown daily enzyme logoff end of day eod",
+        "name": "enzyme my laptop pc file"
+    },
+    {
+        "title": "StartDailyLockdownwBackup",
+        "type": 0,
+        "path":"C:\\autostart\\batchfilehome\\StartDailyLockdownwBackup.BAT",
+        "error": "shutdown backup daily enzyme logoff end of day eod",
+        "name": "enzyme my laptop pc file"
+    },
+    { 
+        "title": "TeamViewer12",
+        "type": -1,
+        "path":"C:\\autostart\\RM Utilities\\TeamViewer12.ZIP",
+        "error": "remote access RMStationReboot new install server setup changeout station configuration swap replacement",      
+        "name": "rm restaurant manager application program"
+    },
+    {
+        "title": "Titan",
+        "type": 0,
+        "path":"C:\\autostart\\Titan.appref-ms",
+        "error": "applications customer merchant database",
+        "name": "enzyme my laptop pc application program"
+    },
+    {
+        "title": "UTGFirewallPortsSetup",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\UTGFirewallPortsSetup.BAT",
+        "error": "configure setup utg firewall ports windows s4 shift4 settings new server station configuration swap replacement",      
+        "name": "rm restaurant manager shift4 s4 file"
+    },
+    {
+        "title": "UTGFirewallPortsSetupHowTo",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\UTGFirewallPortsSetupHowTo.BAT",
+        "error": "configure setup utg firewall ports windows s4 shift4 settings new server station configuration swap replacement",      
+        "name": "rm restaurant manager shift4 s4 help how to howto file document"
+    },
+    {
+        "title": "V20Template",
+        "type": -1,
+        "path":"C:\\autostart\\RM Utilities\\V20Template.ZIP",
+        "error": "fresh installation rmwin template version 20 server station new configuration swap replacement",      
+        "name": "rm restaurant manager application program"
+    },
+    {
+        "title": "V21Template",
+        "type": -1,
+        "path":"C:\\autostart\\RM Utilities\\V21Template.ZIP",
+        "error": "fresh installation rmwin template version 21 server station new configuration swap replacement",      
+        "name": "rm restaurant manager application program"
+    },
+    {
+        "title": "VNCViewer4",
+        "type": -1,
+        "path":"C:\\autostart\\RM Utilities\\VNCViewer4.ZIP",
+        "error": "remote access RMStationReboot new install server setup changeout station configuration swap replacement",      
+        "name": "rm restaurant manager application program"
+    },
+    {
+        "title": "Windows10SpeedRegEdit",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\Windows10SpeedRegEdit.BAT",
+        "error": "windows 10 speed increase slowness latency sluggishness new install server setup changeout station configuration swap replacement problem issue",      
+        "name": "rm restaurant manager file"
+    }
+]
