@@ -17,6 +17,9 @@ def explore():
 
     # Create the window
     window = sg.Window("File Explorer", layout, font=public.MONO_FONT, size=(900, 500), resizable=True, finalize=True)
+    
+    btnHandler = public.ButtonHandler(window)
+    
     try:
         while True:
             event, values = window.read()
@@ -62,6 +65,8 @@ def explore():
         exc_type, exc_obj, exc_tb = sys.exc_info()
         fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
         sg.popup_error(f"Error: {exc_type}\nFile: {fname}\nLine: {exc_tb.tb_lineno}\n")
+
+        btnHandler.handleColorChange(event)
 
     window.close()
 

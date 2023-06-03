@@ -42,9 +42,9 @@
         "name": "enzyme my laptop pc application program"
     },
     {
-        "title": "DailyBackup(Configurable)",
+        "title": "DailyBackupConfigurable",
         "type": 0,
-        "path": "C:\\autostart\\batchfilehome\\DailyBackup(Configurable).BAT",
+        "path": "C:\\autostart\\batchfilehome\\DailyBackupConfigurable.BAT",
         "error": "perform make daily backup configurable DailyBackup",
         "name": "enzyme my laptop pc file"
     },
@@ -68,6 +68,13 @@
         "path": "C:\\autostart\\RM Utilities\\FingerPrintDP.ZIP",
         "error": "fingerprint finger print readers biometrics FingerPrintDP",      
         "name": "rm restaurant manager utility utilities drivers"
+    },
+    {
+        "title": "Greeting",
+        "type": 0,
+        "path": "C:\\autostart\\Greeting.txt",
+        "error": "applications greeting notepad call notes",
+        "name": "enzyme my laptop pc application program"
     },
     {
         "title": "HowTosOfRM",
@@ -152,6 +159,13 @@
         "path":"C:\\autostart\\RM Utilities\\PrinterUtilitieswithQR.ZIP",
         "error": "installation receipt kitchen printers drivers qr code drivers bixolon epson snbc munbyn PrinterUtilitieswithQR new",      
         "name": "rm restaurant manager utilities utility"
+    },
+    {
+        "title": "Reader Settings",
+        "type": -1,
+        "path": "C:\\autostart\\batchfilehome\\Reader Settings.txt",
+        "error": "applications vpn network",
+        "name": "enzyme my laptop pc application program"
     },
     {
         "title": "ResetLogMeIn",
@@ -420,18 +434,46 @@
         "name": "rm restaurant manager help how to howto file document"
     },
     {
-        "title": "RMUpdate",
+        "title": "RM Update",
         "type": -1,
         "path":"C:\\autostart\\RM Utilities\\RM Update.ZIP",
         "error": "perform maintenance upgrade update frozen crashed bad down install hard drive server https processing changeout configuration swap replacement dbf failure stack list corruption station rmstart spooler cannot define printers new system unique identifier employee 0 finalize sls pmt ntx error menu setup tab table delivery",      
         "name": "rm restaurant manager utilities utility"
     },
     {
-        "title": "SkyTabMobile500Fix",
-        "type": -1,
-        "path":"C:\\autostart\\batchfilehome\\SkyTabMobile500Fix.BAT",
+        "title": "STMobile500FixC",
+        "type": 1,
+        "path":"C:\\autostart\\batchfilehome\\STMobile500FixC.BAT",
         "error": "reset mozart poslink 500 error frozen skytab integration issues problems software customer facing",
         "name": "shift4 s4 file"
+    },
+    {
+        "title": "STMobile500FixD",
+        "type": 2,
+        "path":"C:\\autostart\\batchfilehome\\STMobile500FixD.BAT",
+        "error": "reset mozart poslink 500 error frozen skytab integration issues problems software customer facing",
+        "name": "shift4 s4 file"
+    },
+    {
+        "title": "STMobile500FixE",
+        "type": 3,
+        "path":"C:\\autostart\\batchfilehome\\STMobile500FixE.BAT",
+        "error": "reset mozart poslink 500 error frozen skytab integration issues problems software customer facing",
+        "name": "shift4 s4 file"
+    },
+    {
+        "title": "STMobile500FixF",
+        "type": 4,
+        "path":"C:\\autostart\\batchfilehome\\STMobile500FixF.BAT",
+        "error": "reset mozart poslink 500 error frozen skytab integration issues problems software customer facing",
+        "name": "shift4 s4 file"
+    },
+    {
+        "title": "STMobile500FixHowTo",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\STMobile500FixXHowTo.BAT",
+        "error": "reset mozart poslink 500 error frozen skytab integration issues problems software customer facing",
+        "name": "shift4 s4 file how to howto"
     },
     {
         "title": "SnippingTool",
@@ -523,5 +565,12 @@
         "path":"C:\\autostart\\batchfilehome\\Windows10SpeedRegEdit.BAT",
         "error": "windows 10 speed increase slowness latency sluggishness new install server setup changeout station configuration swap replacement problem issue",      
         "name": "rm restaurant manager file"
+    },
+    {
+        "title": "Windows10SpeedRegEditHowTo",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\Windows10SpeedRegEditHowTo.BAT",
+        "error": "windows 10 speed increase slowness latency sluggishness new install server setup changeout station configuration swap replacement problem issue",      
+        "name": "rm restaurant manager shift4 s4 help how to howto file document"
     }
 ]

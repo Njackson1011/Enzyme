@@ -23,13 +23,13 @@ def main():
                            [sg.Button('🧪  Test RMWIN', key='-BUTTON5-', size=public.LARGE_BUTTON_SIZE)],
                            [sg.Button('🔒  End my Shift', key='-BUTTON6-', size=public.LARGE_BUTTON_SIZE)]])]]
     
+    help_content = [sg.Button('❓', key='-BUTTON7-', size=(2,1)), sg.Button('✨', key='-BUTTON8-', size=(2,1)), sg.Button('⚙', key='-BUTTON9-', size=(2,1))]
+    
     footer_a = [sg.Text(("Enzyme © 2022-2023 Designed and Supported by Victor A Gurganus"), font=public.FOOTER_FONT)]
     footer_b = [sg.Text(("Enzyme App © 2023 Coded by Nicholas J Jackson"), font=public.FOOTER_FONT)]
 
-    help_content = [sg.Button('❓', key='-BUTTON7-', size=(2,1)), sg.Button('✨', key='-BUTTON8-', size=(2,1)), sg.Button('⚙', key='-BUTTON9-', size=(2,1))]
-
     # Create the main window
-    window = sg.Window('Enzyme', layout = [page_content, footer_a, footer_b, help_content], size=(575,760), resizable=True, element_justification='center', finalize = True)
+    window = sg.Window('Enzyme', layout = [page_content, help_content, footer_a, footer_b], size=(575,760), resizable=True, element_justification='center', finalize = True)
 
     btnHandler = public.ButtonHandler(window)
 
