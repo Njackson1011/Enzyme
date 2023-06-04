@@ -23,7 +23,9 @@ def main():
                            [sg.Button('🧪  Test RMWIN', key='-BUTTON5-', size=public.LARGE_BUTTON_SIZE)],
                            [sg.Button('🔒  End my Shift', key='-BUTTON6-', size=public.LARGE_BUTTON_SIZE)]])]]
     
-    help_content = [sg.Button('❓', key='-info-', size=(2,1)), sg.Button('✨', key='-boogie-', size=(2,1)), sg.Button('⚙', key='-config-', size=(2,1))]
+    help_content = [sg.Button('❓', key='-info-', size=(2,1), button_color='dark gray', tooltip="Opens help file"), 
+                    sg.Button('✨', key='-boogie-', size=(2,1), button_color='dark gray', tooltip="10 seconds of fun"), 
+                    sg.Button('⚙', key='-config-', size=(2,1), button_color="dark gray", tooltip="Enzyme file settings")]
     
     footer_a = [sg.Text(("Enzyme © 2022-2023 Designed and Supported by Victor A Gurganus"), font=public.FOOTER_FONT)]
     footer_b = [sg.Text(("Enzyme App © 2023 Coded by Nicholas J Jackson"), font=public.FOOTER_FONT)]

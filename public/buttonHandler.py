@@ -18,6 +18,10 @@ class ButtonHandler:
         if event in self.btnEventMouseOver:
             if 'Cancel ✘' in self.window[event[:9]].get_text():
                 self.window[event[:9]].update(button_color=('#000000', '#b22222'))
+            elif '🔒  End my Shift' in self.window[event[:9]].get_text():
+                self.window[event[:9]].update(button_color=('#000000', '#b22222'))
+            elif '🔑  Start my Shift' in self.window[event[:9]].get_text():
+                self.window[event[:9]].update(button_color=('#000000', 'forestgreen'))
             else:
                 self.window[event[:9]].update(button_color=('#000000', '#547980'))
         elif event in self.btnEventMouseAway:
