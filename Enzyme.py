@@ -4,7 +4,7 @@ import pages
 import public
 
 #When building the .exe after changes ensure that
-#1. You are in an adminsitrative cmd.
+#1. You are in an adminsitrative windows cmd.
 #2. You are within the root directory for the Enzyme Project folder
 #3. use this code [pyinstaller --icon="public\images\tiredanddepressed.ico" --noconsole --onefile --hidden-import=PySimpleGUI,json,os,sys,subprocess Enzyme.py]
 
@@ -23,7 +23,7 @@ def main():
                            [sg.Button('🧪  Test RMWIN', key='-BUTTON5-', size=public.LARGE_BUTTON_SIZE)],
                            [sg.Button('🔒  End my Shift', key='-BUTTON6-', size=public.LARGE_BUTTON_SIZE)]])]]
     
-    help_content = [sg.Button('❓', key='-BUTTON7-', size=(2,1)), sg.Button('✨', key='-BUTTON8-', size=(2,1)), sg.Button('⚙', key='-BUTTON9-', size=(2,1))]
+    help_content = [sg.Button('❓', key='-info-', size=(2,1)), sg.Button('✨', key='-boogie-', size=(2,1)), sg.Button('⚙', key='-config-', size=(2,1))]
     
     footer_a = [sg.Text(("Enzyme © 2022-2023 Designed and Supported by Victor A Gurganus"), font=public.FOOTER_FONT)]
     footer_b = [sg.Text(("Enzyme App © 2023 Coded by Nicholas J Jackson"), font=public.FOOTER_FONT)]
@@ -50,11 +50,11 @@ def main():
             pages.rmwin() 
         elif event == '-BUTTON6-':
             pages.eod()
-        elif event == '-BUTTON7-':
+        elif event == '-info-':
             os.startfile("C:\\autostart\\batchfilehome\\INFO.bat")
-        elif event == '-BUTTON8-':
+        elif event == '-boogie-':
             os.startfile("C:\\autostart\\batchfilehome\\EnzymeRGBLoad.bat")
-        elif event == '-BUTTON9-':
+        elif event == '-config-':
             pages.settings() 
 
         btnHandler.handleColorChange(event)

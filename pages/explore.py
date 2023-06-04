@@ -25,7 +25,7 @@ def explore():
             event, values = window.read()
             if event == sg.WIN_CLOSED or event == '-BUTTON1-':
                 break
-
+            btnHandler.handleColorChange(event)
             current_directory = values['-DIRECTORY-']
 
             # Update the directory list
@@ -65,7 +65,7 @@ def explore():
         exc_type, exc_obj, exc_tb = sys.exc_info()
         fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
         sg.popup_error(f"Error: {exc_type}\nFile: {fname}\nLine: {exc_tb.tb_lineno}\n")
-
+        
         btnHandler.handleColorChange(event)
 
     window.close()

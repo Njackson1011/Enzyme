@@ -16,6 +16,9 @@ class ButtonHandler:
 
     def handleColorChange(self, event):
         if event in self.btnEventMouseOver:
-            self.window[event[:9]].update(button_color=('#000000', '#547980'))
+            if 'Cancel ✘' in self.window[event[:9]].get_text():
+                self.window[event[:9]].update(button_color=('#000000', '#b22222'))
+            else:
+                self.window[event[:9]].update(button_color=('#000000', '#547980'))
         elif event in self.btnEventMouseAway:
             self.window[event[:9]].update(button_color=('#000000', '#45ADA8'))
