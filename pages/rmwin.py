@@ -7,7 +7,7 @@ def rmwin():
 
     content2 = [[sg.Column([[sg.Button('⮚ RMStart 🔑 ⮘',  key='-BUTTON7-', size=(16,6)), sg.Button('⮚ RMWIN 🗄 ⮘', key='-BUTTON1-', size=(16,6), )],
                            [sg.Button('⮚ RMPOS 🖳 ⮘',  key='-BUTTON2-', size=(16,6)), sg.Button('⮚ RMSpool 🖶 ⮘',  key='-BUTTON3-', size=(16,6))],
-                           [sg.Button('⮚ SplSetup ⚙ ⮘',  key='-BUTTON5-', size=(16,6)), sg.Button('⮚ Security 🔒 ⮘',  key='-BUTTON6-', size=(16,6))]])]]
+                           [sg.Button('⮚ RMReports 📰 ⮘',  key='-BUTTON5-', size=(16,6)), sg.Button('⮚ Security 🔒 ⮘',  key='-BUTTON6-', size=(16,6))]])]]
     content3 = [[sg.Column([[sg.Button('Cancel ✘',  key='-BUTTON8-' )]])]],
 
     footer = [sg.Text(("Enzyme © 2022-2023"), font=public.FOOTER_FONT)]
@@ -27,7 +27,7 @@ def rmwin():
             elif event == '-BUTTON3-':               
                 subprocess.Popen(r"C:\\rmwin\\rmspool.exe", cwd=r"C:\\rmwin")                              
             elif event == '-BUTTON5-':                
-                subprocess.Popen(r"C:\\rmwin\\splsetup.exe", cwd=r"C:\\rmwin")                
+                subprocess.Popen(r"C:\\rmwin\\rmreports.exe", cwd=r"C:\\rmwin")                
             elif event == '-BUTTON6-':                
                 subprocess.Popen(r"C:\\rmwin\\security.exe", cwd=r"C:\\rmwin")               
             elif event == '-BUTTON7-':                

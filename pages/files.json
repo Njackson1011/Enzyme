@@ -42,6 +42,13 @@
         "name": "enzyme my laptop pc application program"
     },
     {
+        "title": "CustomBackupFile",
+        "type": 0,
+        "path": "C:\\autostart\\batchfilehome\\CustomBackupFile.BAT",
+        "error": "perform make daily backup custom",
+        "name": "enzyme my laptop pc file"
+    },
+    {
         "title": "DailyBackupConfigurable",
         "type": 0,
         "path": "C:\\autostart\\batchfilehome\\DailyBackupConfigurable.BAT",
@@ -81,7 +88,7 @@
         "type": -1,
         "path": "C:\\autostart\\RM Utilities\\How to's of RM.ZIP",
         "error": "knowledgebase instructionals HowTosOfRM customer facing",      
-        "name": "rm restaurant manager help how to howto utilities utility"
+        "name": "rm restaurant manager help howto utilities utility"
     },
     {
         "title": "INFO",
@@ -93,14 +100,14 @@
     {
         "title": "LocalBackupFiles",
         "type": -1,
-        "path":"",
+        "path": "C:\\autostart\\RM Utilities\\How to's of RM.ZIP",
         "error": "perform make local network system rmwin new server station backups LocalBackupFiles",      
         "name": "rm restaurant manager utility utilities"
     },
     {
         "title": "LMIIgnition",
         "type": 0,
-        "path":"",
+        "path": "C:\\autostart\\LMIIgnition.lnk",
         "error": "applications lmi log me in logmein remote access connection software",
         "name": "enzyme my laptop pc application program"
     },
@@ -137,7 +144,7 @@
         "type": -1,
         "path":"C:\\autostart\\batchfilehome\\MenuCopyFullHowTo.BAT",
         "error": "crashed bad corrupt down new install hard drive server rmwin files copy menu setup changeout station configuration swap replacement",
-        "name": "rm restaurant manager help how to howto file document"
+        "name": "rm restaurant manager help howto file document"
     },
     {
         "title": "MSEdge",
@@ -193,7 +200,7 @@
         "type": -1,
         "path":"C:\\autostart\\batchfilehome\\ResetOnlineOrderingHowTo.BAT",
         "error": "online ordering oo olo dropping cancelling orders frozen freezes bitvise rmsoapserver service ResetOnlineOrdering",
-        "name": "rm restaurant manager help how to howto file document"
+        "name": "rm restaurant manager help howto file document"
     },
     {
         "title": "ResetUTGSoftwareAUTO",
@@ -214,7 +221,7 @@
         "type": -1,
         "path":"C:\\autostart\\batchfilehome\\ResetUTGSoftwareHowTo.BAT",
         "error": "reset software lane closed transactions stuck mode customer technician facing network system rmwin backups utg Offline frozen crashed bad corrupt down new install hard drive server https processing setup changeout station configuration swap replacement",      
-        "name": "utg shift4 s4 help how to howto file document"
+        "name": "utg shift4 s4 help howto file document"
     },
     {
         "title": "RMDeleteData",
@@ -270,7 +277,7 @@
         "type": -1,
         "path":"C:\\autostart\\batchfilehome\\RMClearXHowTo.BAT",
         "error": "Clear payment stuck system unique identifier employee 0 cannot pmt error finalize check add tip transaction tab stuck system table delivery",
-        "name": "rm restaurant manager help how to howto file document"
+        "name": "rm restaurant manager help howto file document"
     },
     {
         "title": "RMIndexC",
@@ -319,7 +326,7 @@
         "type": -1,
         "path":"C:\\autostart\\batchfilehome\\RMIndexXHowTo.BAT",
         "error": "reindex retrying index dbf failure stack list corruption station rmstart spooler cannot define printers sls ntx menu error",      
-        "name": "rm restaurant manager help how to howto file document"
+        "name": "rm restaurant manager help howto file document"
     },
     {
         "title": "RMMaintenanceC",
@@ -368,7 +375,7 @@
         "type": -1,
         "path":"C:\\autostart\\batchfilehome\\RMMaintenanceXHowTo.BAT",
         "error": "perform maintenance upgrade update frozen crashed bad down install hard drive server https processing changeout configuration swap replacement dbf failure stack list corruption station rmstart spooler cannot define printers new system unique identifier employee 0 finalize sls pmt ntx error menu setup tab table delivery",      
-        "name": "rm restaurant manager help how to howto file document"
+        "name": "rm restaurant manager help howto file document"
     },
     {
         "title": "RMPassCode",
@@ -424,14 +431,14 @@
         "type": -1,
         "path":"C:\\autostart\\batchfilehome\\RMStationRebootHowTo.BAT",
         "error": "Reboot restart running active networked stations frozen upgrade update crashed bad corrupt down new install hard drive server https processing setup changeout station configuration swap replacement",      
-        "name": "rm restaurant manager help how to howto file document"
+        "name": "rm restaurant manager help howto file document"
     },
     {
         "title": "RMWriteups",
         "type": -1,
         "path":"C:\\autostart\\RM Utilities\\RMWriteups.ZIP",
         "error": "RMWriteups knowledgebase instructionals technician",      
-        "name": "rm restaurant manager help how to howto file document"
+        "name": "rm restaurant manager help howto file document"
     },
     {
         "title": "RM Update",
@@ -473,7 +480,7 @@
         "type": -1,
         "path":"C:\\autostart\\batchfilehome\\STMobile500FixXHowTo.BAT",
         "error": "reset mozart poslink 500 error frozen skytab integration issues problems software customer facing",
-        "name": "shift4 s4 file how to howto"
+        "name": "shift4 s4 file howto"
     },
     {
         "title": "SnippingTool",
@@ -536,7 +543,7 @@
         "type": -1,
         "path":"C:\\autostart\\batchfilehome\\UTGFirewallPortsSetupHowTo.BAT",
         "error": "configure setup utg firewall ports windows s4 shift4 settings new server station configuration swap replacement",      
-        "name": "rm restaurant manager shift4 s4 help how to howto file document"
+        "name": "rm restaurant manager shift4 s4 help howto file document"
     },
     {
         "title": "V20Template",
@@ -571,6 +578,6 @@
         "type": -1,
         "path":"C:\\autostart\\batchfilehome\\Windows10SpeedRegEditHowTo.BAT",
         "error": "windows 10 speed increase slowness latency sluggishness new install server setup changeout station configuration swap replacement problem issue",      
-        "name": "rm restaurant manager shift4 s4 help how to howto file document"
+        "name": "rm restaurant manager shift4 s4 help howto file document"
     }
 ]
