@@ -8,7 +8,7 @@ def eod():
     content2 = [[sg.Column([[sg.Button('Cancel ✘', key='-BUTTON3-')]])]]
     footer = [sg.Text(("Enzyme © 2022-2023"), font=public.FOOTER_FONT)]
 
-    window = sg.Window('Enzyme', layout = [content, content2, footer], size=(450,310), resizable=True, element_justification='center', finalize = True)
+    window = sg.Window('Enzyme', layout = [content, content2, footer], size=(380,280), resizable=True, element_justification='center', finalize = True)
 
     btnHandler = public.ButtonHandler(window)
     

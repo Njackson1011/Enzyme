@@ -4,7 +4,8 @@ import subprocess
 
 def settings():
 
-    content_a = [[sg.Text('Select file to modify:')]],
+    content_a = [[sg.Text('Select file to modify:', font=('Algerian', '20'))]],
+    content_s = [[sg.Text('•══════•°•〔⚙〕•°•══════•', font=('Algerian', '14', 'bold'), text_color='#45ADA8'  )]],
     content_b = [[sg.Column([[sg.CB('⇐StartDailyTasks', key="-1-")],
                  [sg.CB('⇐StartDailyLockdown', key="-2-")],
                  [sg.CB('⇐StartDailyLockdownwBackup', key="-3-")],
@@ -14,7 +15,7 @@ def settings():
     content_c = [sg.Button('Edit ✎', key='-BUTTON1-', bind_return_key=True), sg.Button('Cancel ✘', key='-BUTTON2-')],
     footer = [sg.Text(("Enzyme © 2022-2023"), font=public.FOOTER_FONT)]
 
-    window = sg.Window('Enzyme Settings', layout= [content_a, content_b, content_c, footer], size=(450, 340), element_justification='center', finalize=True)
+    window = sg.Window('Enzyme Settings', layout= [content_a, content_s, content_b, content_c, footer], size=(470, 400), element_justification='center', finalize=True)
 
     btnHandler = public.ButtonHandler(window)
 

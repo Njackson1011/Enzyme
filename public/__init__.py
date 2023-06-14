@@ -2,7 +2,7 @@ from .buttonHandler import ButtonHandler
 
 # style options
 WINDOW_SIZE = (750,500)
-LARGE_BUTTON_SIZE = (30, 4)
+LARGE_BUTTON_SIZE = (25, 3)
 HAKKE_CSS = {'BACKGROUND': '#594F4F',
              'TEXT': '#000000',
              'INPUT': '#f9f8f4',

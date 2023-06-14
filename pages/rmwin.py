@@ -5,14 +5,16 @@ import subprocess
 
 def rmwin():
 
-    content2 = [[sg.Column([[sg.Button('⮚ RMStart 🔑 ⮘',  key='-BUTTON7-', size=(16,6)), sg.Button('⮚ RMWIN 🗄 ⮘', key='-BUTTON1-', size=(16,6), )],
-                           [sg.Button('⮚ RMPOS 🖳 ⮘',  key='-BUTTON2-', size=(16,6)), sg.Button('⮚ RMSpool 🖶 ⮘',  key='-BUTTON3-', size=(16,6))],
-                           [sg.Button('⮚ RMReports 📰 ⮘',  key='-BUTTON5-', size=(16,6)), sg.Button('⮚ Security 🔒 ⮘',  key='-BUTTON6-', size=(16,6))]])]]
+    content1 = [[sg.Text('Test RMWIN', font=('Algerian', '20'))]],
+    content_s = [[sg.Text('•══════•°•〔🧪〕•°•══════•', font=('Algerian', '14', 'bold'), text_color='#45ADA8'  )]],
+    content2 = [[sg.Column([[sg.Button('⮚ RMStart 🔑 ⮘',  key='-BUTTON7-', size=(16,4)), sg.Button('⮚ RMWIN 🗄 ⮘', key='-BUTTON1-', size=(16,4), )],
+                           [sg.Button('⮚ RMPOS 🖳 ⮘',  key='-BUTTON2-', size=(16,4)), sg.Button('⮚ RMSpool 🖶 ⮘',  key='-BUTTON3-', size=(16,4))],
+                           [sg.Button('⮚ RMReports 📰 ⮘',  key='-BUTTON5-', size=(16,4)), sg.Button('⮚ Security 🔒 ⮘',  key='-BUTTON6-', size=(16,4))]])]]
     content3 = [[sg.Column([[sg.Button('Cancel ✘',  key='-BUTTON8-' )]])]],
 
     footer = [sg.Text(("Enzyme © 2022-2023"), font=public.FOOTER_FONT)]
 
-    window = sg.Window('Restaurant Manager', layout=[content2, content3, footer], size=(475,550), resizable=True, element_justification='center', finalize = True)
+    window = sg.Window('Restaurant Manager', layout=[content1, content_s, content2, content3, footer], size=(475,505), resizable=True, element_justification='center', finalize = True)
     
     btnHandler = public.ButtonHandler(window)
     while True:

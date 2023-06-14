@@ -32,7 +32,7 @@ def search():
     ]
 
     # Create the search window
-    window = sg.Window('Enzyme Search', layout, size=(700, 600), element_justification='center', finalize=True)
+    window = sg.Window('Enzyme Search', layout, size=(700, 605), element_justification='center', finalize=True)
 
     btnHandler = public.ButtonHandler(window)
 
@@ -98,7 +98,7 @@ def search():
                                 if result['type'] in filter or result['type'] == -1:
                                     output_data.append(result['title'])
 
-                window['_output_'].update(output_data)
+                    window['_output_'].update(output_data)
 
             elif event == '-BUTTON3-' or event == '-BUTTON4-':
                 selected_entry = values['_output_'][0]
