@@ -25,14 +25,14 @@ def search():
             sg.CB('⇐GIBBS', key="-GIBBS-")
         ],
         [sg.Button('Search 🔍', key='-BUTTON1-', bind_return_key=True), sg.Button('Cancel ✘', key='-BUTTON2-')],
-        [sg.Listbox([], size=(60, 17), key='_output_', font=public.BODY_FONT, enable_events=True)],
+        [sg.Listbox([], size=(65, 17), key='_output_', font=public.BODY_FONT, enable_events=True)],
         [sg.Button('Find 🔍', key='-BUTTON3-'),
          sg.Button('Run ⚙', key='-BUTTON4-')],
         [sg.Text(("Enzyme © 2022-2023"), font=public.FOOTER_FONT)]
     ]
 
     # Create the search window
-    window = sg.Window('Enzyme Search', layout, size=(700, 605), element_justification='center', finalize=True)
+    window = sg.Window('Enzyme Search', layout, size=(700, 600), element_justification='center', finalize=True)
 
     btnHandler = public.ButtonHandler(window)
 
@@ -60,7 +60,7 @@ def search():
                     filter.append(2)
                 if values['-E-']:
                     filter.append(3)
-                if values['-F-']:
+                if values['-F-']: 
                     filter.append(4)
                 if values['-CRS-']:
                     filter.append(5)
