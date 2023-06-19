@@ -15,23 +15,25 @@ sg.set_options(icon="./public/images/iconenzymecover.ICO")
 
 def main():
 
-    # Define main window layout    
-    page_content = [[sg.Column([[sg.Button('🔑  Start my Shift', key='-BUTTON1-', size=public.LARGE_BUTTON_SIZE)],
-                           [sg.Button('📖  Explore Enzyme', key='-BUTTON2-', size=public.LARGE_BUTTON_SIZE)],
-                           [sg.Button('📁  My Backups', key='-BUTTON3-', size=public.LARGE_BUTTON_SIZE)],
-                           [sg.Button('🔍  Search Files', key='-BUTTON4-', size=public.LARGE_BUTTON_SIZE)],
-                           [sg.Button('🧪  Test RMWIN', key='-BUTTON5-', size=public.LARGE_BUTTON_SIZE)],
-                           [sg.Button('🔒  End my Shift', key='-BUTTON6-', size=public.LARGE_BUTTON_SIZE)]])]]
+    # Define main window layout
+    page_content = [[sg.Column([[sg.Button('🔑  Start my Shift', key='-BUTTON1-', size=(37,3))],
+                           [sg.Button('📖  Explore Enzyme', key='-BUTTON2-', size=(37,3))],
+                           [sg.Button('📁  My Backups', key='-BUTTON3-', size=(37,3))],
+                           [sg.Button('🔍  Search Files', key='-BUTTON4-', size=(37,3))],
+                           [sg.Button('🧪  Test RMWIN', key='-BUTTON5-', size=(37,3))],
+                           [sg.Button('🔒  End my Shift', key='-BUTTON6-', size=(37,3))]])]]
     
-    help_content = [sg.Button('❓', key='-info-', size=(2,1), button_color='dark gray', tooltip="Opens help file"), 
-                    sg.Button('✨', key='-boogie-', size=(2,1), button_color='dark gray', tooltip="10 seconds of fun"), 
-                    sg.Button('⚙', key='-config-', size=(2,1), button_color="dark gray", tooltip="Enzyme file settings")]
+    help_content = [sg.Button('❓', key='-help-', size=(2,1), button_color='dark gray', tooltip="Opens Application Help File"),
+                    sg.Button('✔', key='-info-', size=(2,1), button_color='dark gray', tooltip="Opens Version Info File"),  
+                    sg.Button('✨', key='-boogie-', size=(2,1), button_color='dark gray', tooltip="10 Seconds of Fun"),
+                    sg.Button('⍩⃝', key='-pac-', size=(2,1), button_color='dark gray', tooltip="waka-waka-waka"),  
+                    sg.Button('⚙', key='-config-', size=(2,1), button_color="dark gray", tooltip="Enzyme File Settings")]
     
     footer_a = [sg.Text(("Enzyme © 2022-2023 Designed and Supported by Victor A Gurganus"), font=public.FOOTER_FONT)]
     footer_b = [sg.Text(("Enzyme App © 2023 Coded by Nicholas J Jackson"), font=public.FOOTER_FONT)]
 
     # Create the main window
-    window = sg.Window('Enzyme', layout = [page_content, help_content, footer_a, footer_b], size=(575,760), resizable=True, element_justification='center', finalize = True)
+    window = sg.Window('Enzyme', layout = [page_content, help_content, footer_a, footer_b], size=(550,640), resizable=True, element_justification='center', finalize = True)
 
     btnHandler = public.ButtonHandler(window)
 
@@ -52,12 +54,17 @@ def main():
             pages.rmwin() 
         elif event == '-BUTTON6-':
             pages.eod()
+        elif event == '-help-':
+            os.startfile("C:\\autostart\\batchfilehome\\EXEINFO.exe")
         elif event == '-info-':
-            os.startfile("C:\\autostart\\batchfilehome\\INFO.bat")
+            os.startfile("C:\\autostart\\batchfilehome\\INFO.exe")
         elif event == '-boogie-':
-            os.startfile("C:\\autostart\\batchfilehome\\EnzymeRGBLoad.bat")
+            os.startfile("C:\\autostart\\batchfilehome\\EnzymeRGBLoad.exe")
+        elif event == '-pac-':
+            os.startfile("C:\\autostart\\batchfilehome\\EnzymeRGBPac.exe")
         elif event == '-config-':
             pages.settings() 
+        
 
         btnHandler.handleColorChange(event)
     # Close the main window

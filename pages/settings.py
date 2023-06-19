@@ -15,7 +15,7 @@ def settings():
     content_c = [sg.Button('Edit ✎', key='-BUTTON1-', bind_return_key=True), sg.Button('Cancel ✘', key='-BUTTON2-')],
     footer = [sg.Text(("Enzyme © 2022-2023"), font=public.FOOTER_FONT)]
 
-    window = sg.Window('Enzyme Settings', layout= [content_a, content_s, content_b, content_c, footer], size=(470, 400), element_justification='center', finalize=True)
+    window = sg.Window('Enzyme Settings', layout= [content_a, content_s, content_b, content_c, footer], size=(435, 400), element_justification='center', finalize=True)
 
     btnHandler = public.ButtonHandler(window)
 
@@ -44,8 +44,8 @@ def get_file_path(file_key):
         "-1-": "C:\\autostart\\batchfilehome\\StartDailyTasks.BAT",
         "-2-": "C:\\autostart\\batchfilehome\\StartDailyLockdown.BAT",
         "-3-": "C:\\autostart\\batchfilehome\\StartDailyLockdownwBackup.BAT",
-        "-4-": "C:\\autostart\\batchfilehome\\DailyBackup(Configurable).BAT",
-        "-5-": "C:\\autostart\\batchfilehome\\Greeting.txt",
+        "-4-": "C:\\autostart\\batchfilehome\\DailyBackupConfigurable.BAT",
+        "-5-": "C:\\autostart\\Greeting.txt",
         "-6-": "C:\\autostart\\batchfilehome\\Reader Settings.txt",
     }
     return file_paths.get(file_key)
