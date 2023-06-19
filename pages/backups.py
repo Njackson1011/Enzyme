@@ -25,7 +25,7 @@ def backups():
             elif event == '-BUTTON1-':
                 os.startfile("C:\\autostart\\batchfilehome\\BatchFileBackup.exe")
             elif event == '-BUTTON2-':
-                os.startfile("C:\\autostart\\batchfilehome\\DailyBackup(Configurable).bat")
+                os.startfile("C:\\autostart\\batchfilehome\\DailyBackupConfigurable.bat")
             elif event == '-BUTTON3-':
                 os.startfile("C:\\autostart\\batchfilehome\\DFBforEnzyme.exe")
             elif event == '-BUTTON4-':

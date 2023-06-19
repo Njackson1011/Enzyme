@@ -3,12 +3,12 @@ import public
 import os, sys
 
 def eod():
-    content = [[sg.Column([[sg.Button('Lockdown my PC 🔒', key='-BUTTON1-', size=public.LARGE_BUTTON_SIZE)],
-                           [sg.Button('Backup and Lockdown my PC 🔒', key='-BUTTON2-', size=public.LARGE_BUTTON_SIZE)]])]]
+    content = [[sg.Column([[sg.Button('Lockdown my PC 🔒', key='-BUTTON1-', size=(42,4))],
+                           [sg.Button('Backup and Lockdown my PC 🔒', key='-BUTTON2-', size=(42,4))]])]]
     content2 = [[sg.Column([[sg.Button('Cancel ✘', key='-BUTTON3-')]])]]
     footer = [sg.Text(("Enzyme © 2022-2023"), font=public.FOOTER_FONT)]
 
-    window = sg.Window('Enzyme', layout = [content, content2, footer], size=(380,280), resizable=True, element_justification='center', finalize = True)
+    window = sg.Window('Enzyme', layout = [content, content2, footer], size=(575,320), resizable=True, element_justification='center', finalize = True)
 
     btnHandler = public.ButtonHandler(window)
     

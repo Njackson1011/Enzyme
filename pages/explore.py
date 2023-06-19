@@ -5,7 +5,7 @@ import os, sys
 sg.set_options(font=public.MONO_FONT)
 
 def explore():
-    initial_directory = 'C:/autostart'
+    initial_directory = 'C:/autostart/FileViewer'
 
     # Define the layout of the window
     layout = [[sg.Text("Current Directory", size=(20, 1), justification='center'),
