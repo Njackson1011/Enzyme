@@ -60,8 +60,11 @@ def main():
             os.startfile("C:\\autostart\\batchfilehome\\INFO.exe")
         elif event == '-boogie-':
             os.startfile("C:\\autostart\\batchfilehome\\EnzymeRGBLoad.exe")
+<<<<<<< HEAD
         elif event == '-pac-':
             os.startfile("C:\\autostart\\batchfilehome\\EnzymeRGBPac.exe")
+=======
+>>>>>>> 88831cb7e028b98a7974326effaec5f81cee6456
         elif event == '-config-':
             pages.settings() 
         
