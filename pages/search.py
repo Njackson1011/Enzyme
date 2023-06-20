@@ -104,30 +104,31 @@ def search():
                 selected_entry = values['_output_'][0]
                 file_path = None
 
-                try:
-                    for file in files: # Load the selected file's directory path
-                        if file['title'] == selected_entry:
-                            file_path = file['path']
-                            break
+                if selected_entry not in ['No search query given', 'Found the following files:', 'No files found']:
+                    try:
+                        for file in files: # Load the selected file's directory path
+                            if file['title'] == selected_entry:
+                                file_path = file['path']
+                                break
 
-                    if file_path:
-                        if event == '-BUTTON3-': # Find
-                            subprocess.Popen(f'explorer /select,"{file_path}"')
-                        elif event == '-BUTTON4-': # Run
-                            os.startfile(file_path)  
+                        if file_path:
+                            if event == '-BUTTON3-': # Find
+                                subprocess.Popen(f'explorer /select,"{file_path}"')
+                            elif event == '-BUTTON4-': # Run
+                                os.startfile(file_path)  
 
-                except Exception as e:
-                    exc_type, exc_obj, exc_tb = sys.exc_info()
-                    fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
-                    sg.popup_error(f"Error: {exc_type}\nFile: {fname}\nLine: {exc_tb.tb_lineno}\n\nThe selected file cannot be found or run!",
-                                   "\nPlease reach out to Victor A Gurganus or Nicholas J Jackson!")
+                    except Exception as e:
+                        exc_type, exc_obj, exc_tb = sys.exc_info()
+                        fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
+                        sg.popup_error(f"Error: {exc_type}\nFile: {fname}\nLine: {exc_tb.tb_lineno}\n\nThe selected file", file['title'], "cannot be found or run!",
+                                    "\nPlease reach out to Victor A Gurganus or Nicholas J Jackson!")
 
             btnHandler.handleColorChange(event)
 
     except Exception as e:
         exc_type, exc_obj, exc_tb = sys.exc_info()
         fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
-        sg.popup_error(f"Error: {exc_type}\nFile: {fname}\nLine: {exc_tb.tb_lineno}\n\nThe given search query failed",
+        sg.popup_error(f"Error: {exc_type}\nFile: {fname}\nLine: {exc_tb.tb_lineno}\n\nThe given search query", search_query, "failed",
                        "\nPlease reach out to Victor A Gurganus or Nicholas J Jackson!")
 
     # Close the main window
