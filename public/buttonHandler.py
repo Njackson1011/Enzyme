@@ -1,4 +1,4 @@
-# Don't fucking touch this or everything will break
+# Don't touch this or everything will break
 class ButtonHandler:
 
     def __init__(self, window):
@@ -16,13 +16,13 @@ class ButtonHandler:
 
     def handleColorChange(self, event):
         if event in self.btnEventMouseOver:
-            if 'Cancel ✘' in self.window[event[:9]].get_text():
+            if '✘' in self.window[event[:9]].get_text():
                 self.window[event[:9]].update(button_color=('#000000', '#b22222'))
             elif '🔒  End my Shift' in self.window[event[:9]].get_text():
                 self.window[event[:9]].update(button_color=('#000000', '#b22222'))
             elif '🔑  Start my Shift' in self.window[event[:9]].get_text():
                 self.window[event[:9]].update(button_color=('#000000', 'forestgreen'))
             else:
-                self.window[event[:9]].update(button_color=('#000000', '#547980'))
+                self.window[event[:9]].update(button_color=('#000000', '#4E4E4E'))
         elif event in self.btnEventMouseAway:
-            self.window[event[:9]].update(button_color=('#000000', '#45ADA8'))
+            self.window[event[:9]].update(button_color=('#000000', '#787878'))

@@ -6,15 +6,15 @@ import json
 
 sg.set_options(font=public.MONO_FONT)
 
-def explore():
+def pacman():
     
     config_file_path = "C:\\autostart\\Application\\Enzyme\\pages\\config.yaml"
     with open(config_file_path, "r") as config_file:
         config = yaml.safe_load(config_file)
-        f = open('C:\\autostart\\Application\\Enzyme\\language\\'+config.get("language")+'\\explore.json')
+        f = open('C:\\autostart\\Application\\Enzyme\\language\\'+config.get("language")+'\\pacman.json')
     languagedick = json.load(f)
 
-    initial_directory = 'C:/autostart/FileViewer'
+    initial_directory = 'C:/autostart/PacmanInfo'
 
     # Define the layout of the window
     layout = [[sg.Text("%s" % languagedick[0], size=(20, 1), justification='center'),
