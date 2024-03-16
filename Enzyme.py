@@ -6,7 +6,7 @@ import public
 #When building the .exe after changes ensure that
 #1. You are in an adminsitrative windows cmd.
 #2. You are within the root directory for the Enzyme Project folder
-#3. use this code [pyinstaller --icon="public\images\tiredanddepressed.ico" --noconsole --onefile --hidden-import=PySimpleGUI,json,os,sys,subprocess Enzyme.py]
+#3. use this code [pyinstaller --icon="public\images\iconenzymecover.ico" --noconsole --onefile --hidden-import=PySimpleGUI,json,os,sys,subprocess Enzyme.py]
 
 sg.LOOK_AND_FEEL_TABLE['Hakke'] = public.HAKKE_CSS
 sg.theme('Hakke')                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

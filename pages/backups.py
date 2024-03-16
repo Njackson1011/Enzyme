@@ -6,9 +6,9 @@ def backups():
     content1 = [[sg.Text('Enzyme Backups:', font=('Algerian', '20'))]],
     content_s = [[sg.Text('•══════•°•〔📁〕•°•══════•', font=('Algerian', '14', 'bold'), text_color='#45ADA8'  )]],
     content2 = [[sg.Column([[sg.Button('⮚ Backup Enzyme Files ⮘', key='-BUTTON1-', size=public.LARGE_BUTTON_SIZE, )],
-                           [sg.Button('⮚ Backup Personal Files ⮘',  key='-BUTTON2-', size=public.LARGE_BUTTON_SIZE, )],
-                           [sg.Button('⮚ DFB for Enzyme ⮘',  key='-BUTTON3-', size=public.LARGE_BUTTON_SIZE, )],
-                           [sg.Button('⮚ Run All Backups ⮘',  key='-BUTTON4-', size=public.LARGE_BUTTON_SIZE, )]])]]
+                            [sg.Button('⮚ Backup Personal Files ⮘',  key='-BUTTON2-', size=public.LARGE_BUTTON_SIZE, )],
+                            [sg.Button('⮚ DFB for Enzyme ⮘',  key='-BUTTON3-', size=public.LARGE_BUTTON_SIZE, )],
+                            [sg.Button('⮚ Run All Backups ⮘',  key='-BUTTON4-', size=public.LARGE_BUTTON_SIZE, )]])]]
     content3 = [[sg.Column([[sg.Button('⮚ My Backups ⮘',  key='-BUTTON5-', size=(20,6) )]])]]
     content4 = [[sg.Column([[sg.Button('Cancel ✘',  key='-BUTTON6-')]])]],
 

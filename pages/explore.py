@@ -9,11 +9,11 @@ def explore():
 
     # Define the layout of the window
     layout = [[sg.Text("Current Directory", size=(20, 1), justification='center'),
-            sg.Input(key='-DIRECTORY-', enable_events=True, default_text=initial_directory ),
-            sg.FolderBrowse(button_text='Browse 🔍', target='-DIRECTORY-'), sg.Button('Cancel ✘', key = '-BUTTON1-')],
-            [sg.Listbox(values=[".."], size=(3, 20), key='-DIRECTORIES-' , expand_x=True, expand_y=True, enable_events=True),
-            sg.Listbox(values=[], size=(5, 20), expand_x=True, expand_y=True, key='-FILES-', enable_events=True),
-            sg.Multiline(size=(67, 20), expand_x=True, expand_y=True, key='-CONTENTS-', disabled=True)]]
+               sg.Input(key='-DIRECTORY-', enable_events=True, default_text=initial_directory ),
+               sg.FolderBrowse(button_text='Browse 🔍', target='-DIRECTORY-'), sg.Button('Cancel ✘', key = '-BUTTON1-')],
+            [sg.Listbox(values=[".."], size=(0, 0), key='-DIRECTORIES-' , expand_x=True, expand_y=True, enable_events=True),
+             sg.Listbox(values=[], size=(5, 20), expand_x=True, expand_y=True, key='-FILES-', enable_events=True),
+             sg.Multiline(size=(67, 20), expand_x=True, expand_y=True, key='-CONTENTS-', disabled=True)]]
 
     # Create the window
     window = sg.Window("File Explorer", layout, font=public.MONO_FONT, size=(900, 500), resizable=True, finalize=True)
