@@ -1,0 +1,604 @@
+[
+    {
+        "title": "Archos",
+        "type": 0,
+        "path": "C:\\autostart\\Archos.appref-ms",
+        "error": "aplicacciones envio embarque software orden pedidoar nuevos nuevas orden pedido shift4 clientes comerciante",
+        "name": "enzyme mi computadora personal pc aplicaccion programa"
+    },
+    {
+        "title": "BatchFileBackup",
+        "type": 0,
+        "path": "C:\\autostart\\batchfilehome\\BatchFileBackup.EXE",
+        "error": "ejecutar hacer diario diaria registro archivo",
+        "name": "enzyme mi computadora personal pc archivo"
+    },
+    {
+        "title": "ButtonLogViewer",
+        "type": -1,
+        "path": "C:\\autostart\\RM Utilities\\ButtonLogViewer.zip",
+        "error": "botones registro viewer empleados mostrar acciones orden pedido pasos",      
+        "name": "rm restaurant manager utilidad utilidades"
+    },
+    {
+        "title": "Chrome",
+        "type": 0,
+        "path": "C:\\autostart\\chrome.lnk",
+        "error": "aplicacciones google chrome internet buscar buscador",
+        "name": "enzyme mi computadora personal pc aplicaccion programa"
+    },
+    {
+        "title": "Cisco",
+        "type": 0,
+        "path": "C:\\autostart\\Cisco.lnk",
+        "error": "aplicacciones vpn red",
+        "name": "enzyme mi computadora personal pc aplicaccion programa"
+    },
+    {
+        "title": "CustomBackupFile",
+        "type": 0,
+        "path": "C:\\autostart\\batchfilehome\\CustomBackupFile.EXE",
+        "error": "ejecutar hacer diario diaria registro custom",
+        "name": "enzyme mi computadora personal pc archivo"
+    },
+    {
+        "title": "DailyBackupConfigurable",
+        "type": 0,
+        "path": "C:\\autostart\\batchfilehome\\DailyBackupConfigurable.BAT",
+        "error": "ejecutar hacer diario diaria registro configurable diario diaria registro",
+        "name": "enzyme mi computadora personal pc archivo"
+    },
+    {
+        "title": "DBFNavigator",
+        "type": -1,
+        "path": "C:\\autostart\\RM Utilities\\DBFNavigator.ZIP",
+        "error": "dbf base datos navegador dbfnavegador navegadora manager gestion copia copias copiador modificador modificadora",      
+        "name": "rm restaurant manager utilidad utilidades"
+    },
+    {
+        "title": "DFBforEnzyme",
+        "type": 0,
+        "path": "C:\\autostart\\batchfilehome\\DFBforEnzyme.EXE",
+        "error": "ejecutar hacer diario diaria registro DFB Enzyme",
+        "name": "enzyme mi computadora personal pc archivo"
+    },
+    {
+        "title": "FingerPrintDP",
+        "type": -1,
+        "path": "C:\\autostart\\RM Utilities\\FingerPrintDP.ZIP",
+        "error": "huella dactilar readers biometrics FingerPrintDP",      
+        "name": "rm restaurant manager utilidad utilidades conductores"
+    },
+    {
+        "title": "Greeting",
+        "type": 0,
+        "path": "C:\\autostart\\Greeting.txt",
+        "error": "aplicacciones saludo notepad llamadas bloc",
+        "name": "enzyme mi computadora personal pc aplicaccion programa"
+    },
+    {
+        "title": "HowTosOfRM",
+        "type": -1,
+        "path": "C:\\autostart\\RM Utilities\\How to's of RM.ZIP",
+        "error": "base conocimientos instructivos instructivosOfRM clientes empleados",      
+        "name": "rm restaurant manager ayudame ayudo instructivos utilidades utilidad"
+    },
+    {
+        "title": "INFO",
+        "type": -1,
+        "path": "C:\\autostart\\batchfilehome\\INFO.EXE",
+        "error": "descripción general informacion version",
+        "name": "enzyme mi computadora personal pc info archivo documento"
+    },
+    {
+        "title": "LocalBackupFiles",
+        "type": -1,
+        "path": "C:\\autostart\\RM Utilities\\How to's of RM.ZIP",
+        "error": "ejecutar hacer local red sistemas rmwin nuevos nuevas server estationes frente registros LocalBackupFiles",      
+        "name": "rm restaurant manager utilidad utilidades"
+    },
+    {
+        "title": "LMIIgnition",
+        "type": 0,
+        "path": "C:\\autostart\\LMIIgnition.lnk",
+        "error": "aplicacciones lmi registro logmein remote acceso connexion software",
+        "name": "enzyme mi computadora personal pc aplicaccion programa"
+    },
+    {
+        "title": "MenuCopyFullC",
+        "type": 1,
+        "path":"C:\\autostart\\batchfilehome\\MenuCopyFullC.EXE",
+        "error": "estrelló mal malo mala corrupto corrupta caido nuevos nuevas instalar disco duro server rmwin archivos copia copias menu  cambiate estationes frente  configuración intercambio reemplazo",
+        "name": "rm restaurant manager archivo"
+    },
+    {
+        "title": "MenuCopyFullCRS",
+        "type": 5,
+        "path":"C:\\autostart\\batchfilehome\\MenuCopyFullCRS.EXE",
+        "error": "estrelló mal malo mala corrupto corrupta caido nuevos nuevas instalar disco duro server rmwin archivos copia copias menu  cambiate estationes frente  configuración intercambio reemplazo",
+        "name": "rm restaurant manager archivo"
+    },
+    {
+        "title": "MenuCopyFullD",
+        "type": 2,
+        "path":"C:\\autostart\\batchfilehome\\MenuCopyFullD.EXE",
+        "error": "estrelló mal malo mala corrupto corrupta caido nuevos nuevas instalar disco duro server rmwin archivos copia copias menu  cambiate estationes frente  configuración intercambio reemplazo",
+        "name": "rm restaurant manager archivo"
+    },
+    {
+        "title": "MenuCopyFullE",
+        "type": 3,
+        "path":"C:\\autostart\\batchfilehome\\MenuCopyFullE.EXE",
+        "error": "estrelló mal malo mala corrupto corrupta caido nuevos nuevas instalar disco duro server rmwin archivos copia copias menu  cambiate estationes frente  configuración intercambio reemplazo",
+        "name": "rm restaurant manager archivo"
+    },
+    {
+        "title": "MenuCopyFullF",
+        "type": 4,
+        "path":"C:\\autostart\\batchfilehome\\MenuCopyFullF.EXE",
+        "error": "estrelló mal malo mala corrupto corrupta caido nuevos nuevas instalar disco duro server rmwin archivos copia copias menu  cambiate estationes frente  configuración intercambio reemplazo",
+        "name": "rm restaurant manager archivo"
+    },
+    {
+        "title": "MenuCopyFullGIBBS",
+        "type": 6,
+        "path":"C:\\autostart\\batchfilehome\\MenuCopyFullGIBBS.EXE",
+        "error": "estrelló mal malo mala corrupto corrupta caido nuevos nuevas instalar disco duro server rmwin archivos copia copias menu  cambiate estationes frente  configuración intercambio reemplazo",
+        "name": "rm restaurant manager archivo"
+    },
+    {
+        "title": "MenuCopyFullHowTo",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\MenuCopyFullHowTo.EXE",
+        "error": "estrelló mal malo mala corrupto corrupta caido nuevos nuevas instalar disco duro server rmwin archivos copia copias menu  cambiate estationes frente  configuración intercambio reemplazo",
+        "name": "rm restaurant manager ayudame ayudo instructivos archivo documento"
+    },
+    {
+        "title": "MSEdge",
+        "type": 0,
+        "path":"C:\\autostart\\MSEdge.lnk",
+        "error": "aplicacciones microsoft edge internet buscar buscador",
+        "name": "enzyme mi computadora personal pc aplicaccion programa"
+    },
+    {
+        "title": "OfflineSSL",
+        "type": -1,
+        "path":"C:\\autostart\\RM Utilities\\OfflineSSL.ZIP",
+        "error": "red sistemas rmwin registros utg Offline SSL dll archivos estrelló mal malo mala corrupto corrupta caido nuevos nuevas instalar disco duro server https procesando  cambiate estationes frente  configuración intercambio reemplazo",      
+        "name": "rm restaurant manager s4 shift4 utilidades utilidad"
+    },
+    {
+        "title": "PrinterUtilitieswithQR",
+        "type": -1,
+        "path":"C:\\autostart\\RM Utilities\\PrinterUtilitieswithQR.ZIP",
+        "error": "instalacion recibos cocina impresoras imprimidoras conductores qr codigo conductores bixolon epson snbc munbyn nuevos nuevas",      
+        "name": "rm restaurant manager utilidades utilidad"
+    },
+    {
+        "title": "Reader Settings",
+        "type": -1,
+        "path": "C:\\autostart\\batchfilehome\\Reader Settings.txt",
+        "error": "aplicacciones vpn red",
+        "name": "enzyme mi computadora personal pc aplicaccion programa"
+    },
+    {
+        "title": "ResetLogMeIn",
+        "type": 0,
+        "path":"C:\\autostart\\batchfilehome\\ResetLogMeIn.EXE",
+        "error": "reiniciar computadora personal tasks logmein registrologmein congelada congelado congelado congelada congelando funcionando funciona remote acceso software",
+        "name": "enzyme mi computadora personal pc archivo"
+    },
+    {
+        "title": "ResetSplashtop",
+        "type": 0,
+        "path":"C:\\autostart\\batchfilehome\\ResetSplashtop.EXE",
+        "error": "reiniciar computadora personal tasks logmein registro congelada congelado congelado congelada congelando funcionando funciona remote acceso software",
+        "name": "enzyme mi computadora personal pc archivo"
+    },
+    {
+        "title": "ResetOnlineOrdering",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\ResetOnlineOrdering.EXE",
+        "error": "online orden pedido oo olo dropping cancelada cancelado pedidos congelada congelado congelado congelada bitvise rmsoapserver service clientes frente",
+        "name": "rm restaurant manager archivo"
+    },
+    {
+        "title": "ResetOnlineOrderingHowTo",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\ResetOnlineOrderingHowTo.EXE",
+        "error": "online orden pedido oo olo dropping cancelada cancelado pedidos congelada congelado congelado congelada bitvise rmsoapserver service pedido",
+        "name": "rm restaurant manager ayudame ayudo instructivos archivo documento"
+    },
+    {
+        "title": "ResetUTGSoftwareAUTO",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\ResetUTGSoftwareAUTO.EXE",
+        "error": "reiniciar software lane closed transacciones congelada congelado mode clientes red sistemas rmwin registros utg Offline congelada congelado estrelló mal malo mala corrupto corrupta caido nuevos nuevas instalar disco duro server https procesando  cambiate estationes frente  configuración intercambio reemplazo",
+        "name": "utg shift4 s4 archivo"
+    },
+    {
+        "title": "ResetUTGSoftwareTECH",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\ResetUTGSoftwareTECH.EXE",
+        "error": "reiniciar software lane closed transacciones congelada congelado mode technician red sistemas rmwin registros utg Offline congelada congelado estrelló mal malo mala corrupto corrupta caido nuevos nuevas instalar disco duro server https procesando  cambiate estationes frente  configuración intercambio reemplazo",
+        "name": "utg shift4 s4 archivo"
+    },
+    {
+        "title": "ResetUTGSoftwareHowTo",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\ResetUTGSoftwareHowTo.EXE",
+        "error": "reiniciar software lane closed transacciones congelada congelado mode clientes technician red sistemas rmwin registros utg Offline congelada congelado estrelló mal malo mala corrupto corrupta caido nuevos nuevas instalar disco duro server https procesando  cambiate estationes frente  configuración intercambio reemplazo",      
+        "name": "utg shift4 s4 ayudame ayudo instructivos archivo documento"
+    },
+    {
+        "title": "RMDeleteData",
+        "type": -1,
+        "path":"C:\\autostart\\RM Utilities\\RMDeleteData.ZIP",
+        "error": "RMborrarData rmwin instalacion borrar data manipulation modificador modificadora mal malo mala corrupto corrupta nuevos nuevas disco duro server  cambiate estationes frente  configuración intercambio reemplazo",      
+        "name": "rm restaurant manager utilidades utilidad"
+    },
+    {
+        "title": "RMClearC",
+        "type": 1,
+        "path":"C:\\autostart\\batchfilehome\\RMClearC.EXE",
+        "error": "aclarar vaciar pago congelada congelado sistemas unique identifier empleados 0 puede puedo pmt error finalize cheques agregar propina transacciones tab congelada congelado sistemas mesas reparto entrega",      
+        "name": "rm restaurant manager archivo"
+    },
+    {
+        "title": "RMClearCRS",
+        "type": 5,
+        "path":"C:\\autostart\\batchfilehome\\RMClearCRS.EXE",
+        "error": "aclarar vaciar pago congelada congelado sistemas unique identifier empleados 0 puede puedo pmt error finalize cheques agregar propina transacciones tab congelada congelado sistemas mesas reparto entrega",      
+        "name": "rm restaurant manager archivo"
+    },
+    {
+        "title": "RMClearD",
+        "type": 2,
+        "path":"C:\\autostart\\batchfilehome\\RMClearD.EXE",
+        "error": "aclarar vaciar pago congelada congelado sistemas unique identifier empleados 0 puede puedo pmt error finalize cheques agregar propina transacciones tab congelada congelado sistemas mesas reparto entrega",      
+        "name": "rm restaurant manager archivo"
+    },
+    {
+        "title": "RMClearE",
+        "type": 3,
+        "path":"C:\\autostart\\batchfilehome\\RMClearE.EXE",
+        "error": "aclarar vaciar pago congelada congelado sistemas unique identifier empleados 0 puede puedo pmt error finalize cheques agregar propina transacciones tab congelada congelado sistemas mesas reparto entrega",      
+        "name": "rm restaurant manager archivo"
+    },
+    {
+        "title": "RMClearF",
+        "type": 4,
+        "path":"C:\\autostart\\batchfilehome\\RMClearF.EXE",
+        "error": "aclarar vaciar pago congelada congelado sistemas unique identifier empleados 0 puede puedo pmt error finalize cheques agregar propina transacciones tab congelada congelado sistemas mesas reparto entrega",      
+        "name": "rm restaurant manager archivo"
+    },
+    {
+        "title": "RMClearGIBBS",
+        "type": 6,
+        "path":"C:\\autostart\\batchfilehome\\RMClearGIBBS.EXE",
+        "error": "aclarar vaciar pago congelada congelado sistemas unique identifier empleados 0 puede puedo pmt error finalize cheques agregar propina transacciones tab congelada congelado sistemas mesas reparto entrega",      
+        "name": "rm restaurant manager archivo"
+    },
+    {
+        "title": "RMClearXHowTo",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\RMClearXHowTo.EXE",
+        "error": "aclarar vaciar pago congelada congelado sistemas unique identifier empleados 0 puede puedo pmt error finalize cheques agregar propina transacciones tab congelada congelado sistemas mesas reparto entrega",
+        "name": "rm restaurant manager ayudame ayudo instructivos archivo documento"
+    },
+    {
+        "title": "RMIndexC",
+        "type": 1,
+        "path":"C:\\autostart\\batchfilehome\\RMIndexC.EXE",
+        "error": "reindex retrying index dbf failure falla stack list lista corrupto corrupta estationes frente rmempieza spooler puede puedo definir impresoras imprimidoras sls ntx menu error",      
+        "name": "rm restaurant manager archivo"
+    },
+    {
+        "title": "RMIndexCRS",
+        "type": 5,
+        "path":"C:\\autostart\\batchfilehome\\RMIndexCRS.EXE",
+        "error": "reindex retrying index dbf failure falla stack list lista corrupto corrupta estationes frente rmempieza spooler puede puedo definir impresoras imprimidoras sls ntx menu error",      
+        "name": "rm restaurant manager archivo"
+    },
+    {
+        "title": "RMIndexD",
+        "type": 2,
+        "path":"C:\\autostart\\batchfilehome\\RMIndexD.EXE",
+        "error": "reindex retrying index dbf failure falla stack list lista corrupto corrupta estationes frente rmempieza spooler puede puedo definir impresoras imprimidoras sls ntx menu error",      
+        "name": "rm restaurant manager archivo"
+    },
+	{
+        "title": "RMIndexE",
+        "type": 3,
+        "path":"C:\\autostart\\batchfilehome\\RMIndexE.EXE",
+        "error": "reindex retrying index dbf failure falla stack list lista corrupto corrupta estationes frente rmempieza spooler puede puedo definir impresoras imprimidoras sls ntx menu error",      
+        "name": "rm restaurant manager archivo"
+    },
+	{
+        "title": "RMIndexF",
+        "type": 4,
+        "path":"C:\\autostart\\batchfilehome\\RMIndexF.EXE",
+        "error": "reindex retrying index dbf failure falla stack list lista corrupto corrupta estationes frente rmempieza spooler puede puedo definir impresoras imprimidoras sls ntx menu error",      
+        "name": "rm restaurant manager archivo"
+    },
+	{
+        "title": "RMIndexGIBBS",
+        "type": 6,
+        "path":"C:\\autostart\\batchfilehome\\RMIndexGIBBS.EXE",
+        "error": "reindex retrying index dbf failure falla stack list lista corrupto corrupta estationes frente rmempieza spooler puede puedo definir impresoras imprimidoras sls ntx menu error",      
+        "name": "rm restaurant manager archivo"
+    },
+    {
+        "title": "RMIndexXHowTo",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\RMIndexXHowTo.EXE",
+        "error": "reindex retrying index dbf failure falla stack list lista corrupto corrupta estationes frente rmempieza spooler puede puedo definir impresoras imprimidoras sls ntx menu error",      
+        "name": "rm restaurant manager ayudame ayudo instructivos archivo documento"
+    },
+    {
+        "title": "RMMaintenanceC",
+        "type": 1,
+        "path":"C:\\autostart\\batchfilehome\\RMMaintenanceC.EXE",
+        "error": "ejecutar maintenance mantenimiento mejora actualizar actualizacion congelada congelado estrelló mal malo mala caido instalar disco duro server https procesando cambiate  configuración intercambio reemplazo dbf failure falla stack list lista corrupto corrupta estationes frente rmempieza spooler puede puedo definir impresoras imprimidoras nuevos nuevas sistemas unique identifier empleados 0 finalize sls pmt ntx error menu  tab mesas reparto entrega",      
+        "name": "rm restaurant manager archivo"
+    },
+    {
+        "title": "RMMaintenanceCRS",
+        "type": 5,
+        "path":"C:\\autostart\\batchfilehome\\RMMaintenanceCRS.EXE",
+        "error": "ejecutar maintenance mantenimiento mejora actualizar actualizacion congelada congelado estrelló mal malo mala caido instalar disco duro server https procesando cambiate  configuración intercambio reemplazo dbf failure falla stack list lista corrupto corrupta estationes frente rmempieza spooler puede puedo definir impresoras imprimidoras nuevos nuevas sistemas unique identifier empleados 0 finalize sls pmt ntx error menu  tab mesas reparto entrega",      
+        "name": "rm restaurant manager archivo"
+    },
+    {
+        "title": "RMMaintenanceD",
+        "type": 2,
+        "path":"C:\\autostart\\batchfilehome\\RMMaintenanceD.EXE",
+        "error": "ejecutar maintenance mantenimiento mejora actualizar actualizacion congelada congelado estrelló mal malo mala caido instalar disco duro server https procesando cambiate  configuración intercambio reemplazo dbf failure falla stack list lista corrupto corrupta estationes frente rmempieza spooler puede puedo definir impresoras imprimidoras nuevos nuevas sistemas unique identifier empleados 0 finalize sls pmt ntx error menu  tab mesas reparto entrega",      
+        "name": "rm restaurant manager archivo"
+    },
+    {
+        "title": "RMMaintenanceE",
+        "type": 3,
+        "path":"C:\\autostart\\batchfilehome\\RMMaintenanceE.EXE",
+        "error": "ejecutar maintenance mantenimiento mejora actualizar actualizacion congelada congelado estrelló mal malo mala caido instalar disco duro server https procesando cambiate  configuración intercambio reemplazo dbf failure falla stack list lista corrupto corrupta estationes frente rmempieza spooler puede puedo definir impresoras imprimidoras nuevos nuevas sistemas unique identifier empleados 0 finalize sls pmt ntx error menu  tab mesas reparto entrega",      
+        "name": "rm restaurant manager archivo"
+    },
+    {
+        "title": "RMMaintenanceF",
+        "type": 4,
+        "path":"C:\\autostart\\batchfilehome\\RMMaintenanceF.EXE",
+        "error": "ejecutar maintenance mantenimiento mejora actualizar actualizacion congelada congelado estrelló mal malo mala caido instalar disco duro server https procesando cambiate  configuración intercambio reemplazo dbf failure falla stack list lista corrupto corrupta estationes frente rmempieza spooler puede puedo definir impresoras imprimidoras nuevos nuevas sistemas unique identifier empleados 0 finalize sls pmt ntx error menu  tab mesas reparto entrega",      
+        "name": "rm restaurant manager archivo"
+    },
+    {
+        "title": "RMMaintenanceGIBBS",
+        "type": 6,
+        "path":"C:\\autostart\\batchfilehome\\RMMaintenanceGIBBS.EXE",
+        "error": "ejecutar maintenance mantenimiento mejora actualizar actualizacion congelada congelado estrelló mal malo mala caido instalar disco duro server https procesando cambiate  configuración intercambio reemplazo dbf failure falla stack list lista corrupto corrupta estationes frente rmempieza spooler puede puedo definir impresoras imprimidoras nuevos nuevas sistemas unique identifier empleados 0 finalize sls pmt ntx error menu  tab mesas reparto entrega",      
+        "name": "rm restaurant manager archivo"
+    },
+    {
+        "title": "RMMaintenanceXHowTo",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\RMMaintenanceXHowTo.EXE",
+        "error": "ejecutar maintenance mantenimiento mejora actualizar actualizacion congelada congelado estrelló mal malo mala caido instalar disco duro server https procesando cambiate  configuración intercambio reemplazo dbf failure falla stack list lista corrupto corrupta estationes frente rmempieza spooler puede puedo definir impresoras imprimidoras nuevos nuevas sistemas unique identifier empleados 0 finalize sls pmt ntx error menu  tab mesas reparto entrega",      
+        "name": "rm restaurant manager ayudame ayudo instructivos archivo documento"
+    },
+    {
+        "title": "RMPassCode",
+        "type": 0,
+        "path":"C:\\autostart\\RMPassCode.lnk",
+        "error": "RMPassCode rmwin diario diaria password pass word code generator generate",      
+        "name": "rm restaurant manager aplicaccion programa"
+    },
+    {
+        "title": "RMServerTaskKiller",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\RMServerTaskKiller.EXE",
+        "error": "RMServerTaskKiller kill running active tasks services mejora actualizar actualizacion congelada congelado estrelló mal malo mala corrupto corrupta caido nuevos nuevas instalar disco duro server https procesando  cambiate estationes frente  configuración intercambio reemplazo",      
+        "name": "rm restaurant manager archivo"
+    },
+    {
+        "title": "RMStationRebootTaskServer",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\RMStationRebootTaskServer.EXE",
+        "error": "Reboot reempieza running active reded estationes frentes congelada congelado mejora actualizar actualizacion estrelló mal malo mala corrupto corrupta caido nuevos nuevas instalar disco duro server https procesando  cambiate estationes frente  configuración intercambio reemplazo",      
+        "name": "rm restaurant manager archivo"
+    },
+    {
+        "title": "RMStationRebootTaskStation1",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\RMStationRebootTaskStation1.EXE",
+        "error": "Reboot reempieza running active reded estationes frentes congelada congelado mejora actualizar actualizacion estrelló mal malo mala corrupto corrupta caido nuevos nuevas instalar disco duro server https procesando  cambiate estationes frente  configuración intercambio reemplazo",      
+        "name": "rm restaurant manager archivo"
+    },
+    {
+        "title": "RMStationRebootTaskStation2",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\RMStationRebootTaskStation2.EXE",
+        "error": "Reboot reempieza running active reded estationes frentes congelada congelado mejora actualizar actualizacion estrelló mal malo mala corrupto corrupta caido nuevos nuevas instalar disco duro server https procesando  cambiate estationes frente  configuración intercambio reemplazo",      
+        "name": "rm restaurant manager archivo"
+    },
+    {
+        "title": "RMStationRebootTaskStation3",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\RMStationRebootTaskStation3.EXE",
+        "error": "Reboot reempieza running active reded estationes frentes congelada congelado mejora actualizar actualizacion estrelló mal malo mala corrupto corrupta caido nuevos nuevas instalar disco duro server https procesando  cambiate estationes frente  configuración intercambio reemplazo",      
+        "name": "rm restaurant manager archivo"
+    },
+    {
+        "title": "RMStationRebootTaskStation4",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\RMStationRebootTaskStation4.EXE",
+        "error": "Reboot reempieza running active reded estationes frentes congelada congelado mejora actualizar actualizacion estrelló mal malo mala corrupto corrupta caido nuevos nuevas instalar disco duro server https procesando  cambiate estationes frente  configuración intercambio reemplazo",      
+        "name": "rm restaurant manager archivo"
+    },
+    {
+        "title": "RMStationRebootHowTo",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\RMStationRebootHowTo.EXE",
+        "error": "Reboot reempieza running active reded estationes frentes congelada congelado mejora actualizar actualizacion estrelló mal malo mala corrupto corrupta caido nuevos nuevas instalar disco duro server https procesando  cambiate estationes frente  configuración intercambio reemplazo",      
+        "name": "rm restaurant manager ayudame ayudo instructivos archivo documento"
+    },
+    {
+        "title": "RMWriteups",
+        "type": -1,
+        "path":"C:\\autostart\\RM Utilities\\RMWriteups.ZIP",
+        "error": "RMWriteups base conocimientos instructivos technician",      
+        "name": "rm restaurant manager ayudame ayudo instructivos archivo documento"
+    },
+    {
+        "title": "RM Update",
+        "type": -1,
+        "path":"C:\\autostart\\RM Utilities\\RM Update.ZIP",
+        "error": "ejecutar maintenance mantenimiento mejora actualizar actualizacion congelada congelado estrelló mal malo mala caido instalar disco duro server https procesando cambiate  configuración intercambio reemplazo dbf failure falla stack list lista corrupto corrupta estationes frente rmempieza spooler puede puedo definir impresoras imprimidoras nuevos nuevas sistemas unique identifier empleados 0 finalize sls pmt ntx error menu  tab mesas reparto entrega",      
+        "name": "rm restaurant manager utilidades utilidad"
+    },
+    {
+        "title": "STMobile500FixC",
+        "type": 1,
+        "path":"C:\\autostart\\batchfilehome\\STMobile500FixC.EXE",
+        "error": "reiniciar mozart poslink 500 error congelada congelado skytab integración asuntos problemasas software clientes frente",
+        "name": "shift4 s4 archivo"
+    },
+    {
+        "title": "STMobile500FixCRS",
+        "type": 5,
+        "path":"C:\\autostart\\batchfilehome\\STMobile500FixCRS.EXE",
+        "error": "reiniciar mozart poslink 500 error congelada congelado skytab integración asuntos problemasas software clientes frente",
+        "name": "shift4 s4 archivo"
+    },
+    {
+        "title": "STMobile500FixD",
+        "type": 2,
+        "path":"C:\\autostart\\batchfilehome\\STMobile500FixD.EXE",
+        "error": "reiniciar mozart poslink 500 error congelada congelado skytab integración asuntos problemasas software clientes frente",
+        "name": "shift4 s4 archivo"
+    },
+    {
+        "title": "STMobile500FixE",
+        "type": 3,
+        "path":"C:\\autostart\\batchfilehome\\STMobile500FixE.EXE",
+        "error": "reiniciar mozart poslink 500 error congelada congelado skytab integración asuntos problemasas software clientes frente",
+        "name": "shift4 s4 archivo"
+    },
+    {
+        "title": "STMobile500FixF",
+        "type": 4,
+        "path":"C:\\autostart\\batchfilehome\\STMobile500FixF.EXE",
+        "error": "reiniciar mozart poslink 500 error congelada congelado skytab integración asuntos problemasas software clientes frente",
+        "name": "shift4 s4 archivo"
+    },
+    {
+        "title": "STMobile500FixGIBBS",
+        "type": 6,
+        "path":"C:\\autostart\\batchfilehome\\STMobile500FixGIBBS.EXE",
+        "error": "reiniciar mozart poslink 500 error congelada congelado skytab integración asuntos problemasas software clientes frente",
+        "name": "shift4 s4 archivo"
+    },
+    {
+        "title": "STMobile500FixHowTo",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\STMobile500FixXHowTo.EXE",
+        "error": "reiniciar mozart poslink 500 error congelada congelado skytab integración asuntos problemasas software clientes frente",
+        "name": "shift4 s4 archivo instructivos"
+    },
+    {
+        "title": "SnippingTool",
+        "type": 0,
+        "path":"C:\\autostart\\SnippingTool.lnk",
+        "error": "aplicacciones instantaneas capturas pantalla",
+        "name": "enzyme mi computadora personal pc aplicaccion programa"
+    },
+    {
+        "title": "Splashtop",
+        "type": 0,
+        "path":"C:\\autostart\\Splashtop.lnk",
+        "error": "aplicacciones splashtop remote acceso connexion software",
+        "name": "enzyme mi computadora personal pc aplicaccion programa"
+    },
+    {
+        "title": "StartDailyTasks",
+        "type": 0,
+        "path":"C:\\autostart\\batchfilehome\\StartDailyTasks.BAT",
+        "error": "diario diaria iniciar shift empieza dia",
+        "name": "enzyme mi computadora personal pc archivo"
+    },
+    {
+        "title": "StartDailyLockdown",
+        "type": 0,
+        "path":"C:\\autostart\\batchfilehome\\StartDailyLockdown.BAT",
+        "error": "shutdown diario diaria enzyme logoff fin dia eod",
+        "name": "enzyme mi computadora personal pc archivo"
+    },
+    {
+        "title": "StartDailyLockdownwBackup",
+        "type": 0,
+        "path":"C:\\autostart\\batchfilehome\\StartDailyLockdownwBackup.BAT",
+        "error": "shutcaido registro diario diaria enzyme logoff fin dia eod",
+        "name": "enzyme mi computadora personal pc archivo"
+    },
+    { 
+        "title": "TeamViewer12",
+        "type": -1,
+        "path":"C:\\autostart\\RM Utilities\\TeamViewer12.ZIP",
+        "error": "remote acceso RM estationes frente Reboot nuevos nuevas instalar server cambiate estationes frente configuración intercambio reemplazo",      
+        "name": "rm restaurant manager aplicaccion programa"
+    },
+    {
+        "title": "Titan",
+        "type": 0,
+        "path":"C:\\autostart\\Titan.appref-ms",
+        "error": "aplicacciones clientes comerciante base datos",
+        "name": "enzyme mi computadora personal pc aplicaccion programa"
+    },
+    {
+        "title": "UTGFirewallPortsSetup",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\UTGFirewallPortsSetup.EXE",
+        "error": "configure utg firewall ports windows s4 shift4 settings nuevos nuevas server estationes frente configuración intercambio reemplazo",      
+        "name": "rm restaurant manager shift4 s4 archivo"
+    },
+    {
+        "title": "UTGFirewallPortsSetupHowTo",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\UTGFirewallPortsSetupHowTo.EXE",
+        "error": "configure utg firewall ports windows s4 shift4 settings nuevos nuevas server estationes frente configuración intercambio reemplazo",      
+        "name": "rm restaurant manager shift4 s4 ayudame ayudo instructivos archivo documento"
+    },
+    {
+        "title": "V20Template",
+        "type": -1,
+        "path":"C:\\autostart\\RM Utilities\\V20Template.ZIP",
+        "error": "fresh instalacion rmwin template version 20 server estationes frente nuevos nuevas configuración intercambio reemplazo",      
+        "name": "rm restaurant manager aplicaccion programa"
+    },
+    {
+        "title": "V21Template",
+        "type": -1,
+        "path":"C:\\autostart\\RM Utilities\\V21Template.ZIP",
+        "error": "fresh instalacion rmwin template version 21 server estationes frente nuevos nuevas configuración intercambio reemplazo",      
+        "name": "rm restaurant manager aplicaccion programa"
+    },
+    {
+        "title": "VNCViewer4",
+        "type": -1,
+        "path":"C:\\autostart\\RM Utilities\\VNCViewer4.ZIP",
+        "error": "remote acceso RM estationes frente Reboot nuevos nuevas instalar server cambiate estationes frente configuración intercambio reemplazo",      
+        "name": "rm restaurant manager aplicaccion programa"
+    },
+    {
+        "title": "Windows10SpeedRegEdit",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\Windows10SpeedRegEdit.EXE",
+        "error": "windows 10 speed aumentar lentitud latencia flojedad nuevos nuevas instalar server cambiate estationes frente configuración intercambio reemplazo problemas asunto",      
+        "name": "rm restaurant manager archivo"
+    },
+    {
+        "title": "Windows10SpeedRegEditHowTo",
+        "type": -1,
+        "path":"C:\\autostart\\batchfilehome\\Windows10SpeedRegEditHowTo.EXE",
+        "error": "windows 10 speed aumentar lentitud latencia flojedad nuevos nuevas instalar server cambiate estationes frente configuración intercambio reemplazo problemas asunto",      
+        "name": "rm restaurant manager shift4 s4 ayudame ayudo instructivos archivo documento"
+    }
+]

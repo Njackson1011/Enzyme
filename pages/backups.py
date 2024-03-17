@@ -1,22 +1,37 @@
 import PySimpleGUI as sg
 import public
 import os, sys
+import yaml
+import json
 
 def backups():
-    content1 = [[sg.Text('Enzyme Backups:', font=('Algerian', '20'))]],
-    content_s = [[sg.Text('•══════•°•〔📁〕•°•══════•', font=('Algerian', '14', 'bold'), text_color='#45ADA8'  )]],
-    content2 = [[sg.Column([[sg.Button('⮚ Backup Enzyme Files ⮘', key='-BUTTON1-', size=public.LARGE_BUTTON_SIZE, )],
-                            [sg.Button('⮚ Backup Personal Files ⮘',  key='-BUTTON2-', size=public.LARGE_BUTTON_SIZE, )],
-                            [sg.Button('⮚ DFB for Enzyme ⮘',  key='-BUTTON3-', size=public.LARGE_BUTTON_SIZE, )],
-                            [sg.Button('⮚ Run All Backups ⮘',  key='-BUTTON4-', size=public.LARGE_BUTTON_SIZE, )]])]]
-    content3 = [[sg.Column([[sg.Button('⮚ My Backups ⮘',  key='-BUTTON5-', size=(20,6) )]])]]
-    content4 = [[sg.Column([[sg.Button('Cancel ✘',  key='-BUTTON6-')]])]],
 
-    footer = [sg.Text(("Enzyme © 2022-2023"), font=public.FOOTER_FONT)]
+    config_file_path = "C:\\autostart\\Application\\Enzyme\\pages\\config.yaml"
+    with open(config_file_path, "r") as config_file:
+        config = yaml.safe_load(config_file)
+        f = open('C:\\autostart\\Application\\Enzyme\\language\\'+config.get("language")+'\\backups.json')
+    languagedick = json.load(f)
 
-    window = sg.Window('Enzyme Backups', layout=[content1, content_s, content2, content3, content4, footer], size=(500,685), resizable=True, element_justification='center', finalize = True)
+    with open(config_file_path, "r") as theme:
+            config = yaml.safe_load(theme)
+            fart = config.get("theme")
+    theme_mapping = public.theme_mapping
+    selected_theme = theme_mapping.get(fart)
+
+    content1 = [[sg.Text('%s' % languagedick[0], font=('Algerian', '20'))]],
+    content_s = [[sg.Text('•══════•°•〔📁〕•°•══════•', font=('Algerian', '14', 'bold'), text_color='#FFFFFF')]],
+    content2 = [[sg.Column([[sg.Button('⮚ %s' % languagedick[1] + ' ⮘', key='-BUTTON1-', size=public.LARGE_BUTTON_SIZE, )],
+                            [sg.Button('⮚ %s' % languagedick[2] + ' ⮘',  key='-BUTTON2-', size=public.LARGE_BUTTON_SIZE, )],
+                            [sg.Button('⮚ %s' % languagedick[3] + ' ⮘',  key='-BUTTON3-', size=public.LARGE_BUTTON_SIZE, )],
+                            [sg.Button('⮚ %s' % languagedick[4] + ' ⮘',  key='-BUTTON4-', size=public.LARGE_BUTTON_SIZE, )]])]]
+    content3 = [[sg.Column([[sg.Button('⮚ %s' % languagedick[5] + ' 📁',  key='-BUTTON5-', size=(15,3) )]]), sg.Button('⮚ %s' % languagedick[6] + ' 📁',  key='-BUTTON7-', size=(15,3))]]
+    content4 = [[sg.Column([[sg.Button('%s' % languagedick[7] + ' ✘',  key='-BUTTON6-')]])]],
+
+    footer = [sg.Text(("Enzyme © 2022-2024"), font=public.FOOTER_FONT, text_color='#FFFFFF')]
+
+    window = sg.Window('%s' % languagedick[8], layout=[content1, content_s, content2, content3, content4, footer], size=(500,615), resizable=True, element_justification='center', finalize = True)
     
-    btnHandler = public.ButtonHandler(window)
+    btnHandler = public.ButtonHandler(window, selected_theme)
     try:
         while True:
             event, values = window.read()
@@ -32,6 +47,8 @@ def backups():
                 os.startfile("C:\\autostart\\batchfilehome\\CustomBackupFile.exe")
             elif event == '-BUTTON5-':
                 os.startfile("G:\\My Drive")
+            elif event == '-BUTTON7-':
+                os.startfile("C:\\autostart\\DailyFileBackup")
 
             btnHandler.handleColorChange(event)
 

@@ -3,38 +3,53 @@ import json
 import public
 import os, sys
 import subprocess
+import yaml
 
-# C.
-f = open('C:\\autostart\\Application\\Enzyme\\pages\\files.json')
-files = json.load(f)
+#
+
 
 # Define the "Search" window and search feature
 def search():
-    # Define search window layout
+    config_file_path = "C:\\autostart\\Application\\Enzyme\\pages\\config.yaml"
+    with open(config_file_path, "r") as config_file:
+        config = yaml.safe_load(config_file)
+        f = open('C:\\autostart\\Application\\Enzyme\\language\\'+config.get("language")+'\\search.json')
+        languagedick = json.load(f)
+    f = open('C:\\autostart\\Application\\Enzyme\\pages\\files_'+config.get("language")+'.json')
+    files = json.load(f)
+
+    with open(config_file_path, "r") as theme:
+            config = yaml.safe_load(theme)
+            fart = config.get("theme")
+    theme_mapping = public.theme_mapping
+    selected_theme = theme_mapping.get(fart)
+    sg.LOOK_AND_FEEL_TABLE[fart] = selected_theme
+    sg.theme(fart)
+
     layout = [
-        [sg.Text('Search file, error, or keyword:')],
+        [sg.Text('%s' % languagedick[0])],
         [sg.InputText(key='search', font=public.BODY_FONT)],
-        [sg.Text('Where is your active working directory?')],
-        [
-            sg.CB('⇐My PC', key="-My PC-"),
-            sg.CB('⇐C', key="-C-"),
-            sg.CB('⇐D', key="-D-"),
-            sg.CB('⇐E', key="-E-"),
-            sg.CB('⇐F', key="-F-"),
-            sg.CB('⇐CRS', key="-CRS-"),
-            sg.CB('⇐GIBBS', key="-GIBBS-")
-        ],
-        [sg.Button('Search 🔍', key='-BUTTON1-', bind_return_key=True), sg.Button('Cancel ✘', key='-BUTTON2-')],
+        [sg.Text('%s' % languagedick[1])],
+        [sg.CB('⇐My PC', key="-My PC-"),
+         sg.CB('⇐C', key="-C-"),
+         sg.CB('⇐D', key="-D-"),
+         sg.CB('⇐E', key="-E-"),
+         sg.CB('⇐F', key="-F-")],
+        [sg.CB('⇐CRS', key="-CRS-"),
+         sg.CB('⇐GIBBS', key="-GIBBS-"),
+         sg.CB('⇐TAI', key="-TAI-"),
+         sg.CB('⇐DCS', key="-DCS-")],
+        [sg.Button('%s' % languagedick[2] + ' 🔍', key='-BUTTON1-', bind_return_key=True), sg.Button('%s' % languagedick[3] + ' ✘', key='-BUTTON2-')],
         [sg.Listbox([], size=(65, 17), key='_output_', font=public.BODY_FONT, enable_events=True)],
-        [sg.Button('Find 🔍', key='-BUTTON3-'),
-         sg.Button('Run ⚙', key='-BUTTON4-')],
-        [sg.Text(("Enzyme © 2022-2023"), font=public.FOOTER_FONT)]
+        [sg.Button('%s' % languagedick[4] + ' 🔍', key='-BUTTON3-'),
+         sg.Button('%s' % languagedick[5] + ' ⚙', key='-BUTTON4-')],
+        [sg.Text(("Enzyme © 2022-2024"), font=public.FOOTER_FONT, text_color='#FFFFFF')]
     ]
 
     # Create the search window
-    window = sg.Window('Enzyme Search', layout, size=(700, 600), element_justification='center', finalize=True)
+    window = sg.Window('%s' % languagedick[6], layout, size=(700, 635), element_justification='center', finalize=True)
 
-    btnHandler = public.ButtonHandler(window)
+    btnHandler = public.ButtonHandler(window, selected_theme)
 
     try:
         # Creates the event loop
@@ -66,9 +81,13 @@ def search():
                     filter.append(5)
                 if values['-GIBBS-']:
                     filter.append(6)
+                if values['-TAI-']:
+                    filter.append(7)
+                if values['-DCS-']:
+                    filter.append(8)
                 if values['search'] == "":
                     window['_output_'].update([]) 
-                    window['_output_'].update(['No search query given'])
+                    window['_output_'].update(['%s' % languagedick[7]])
                 else:
                     for file in files:  # Enumerate through each entry in files.json
                         count = 0
@@ -81,14 +100,14 @@ def search():
                                 term_count[tuple(file.items())] = count  # Save the count for the file as a tuple
 
                     if len(found_results) == 0: # Assuming the search query found no matches
-                        output_data = ['No files found']
+                        output_data = ['%s' % languagedick[8]]
                     else:
                         # Searches through each file and sees which file has the most search_terms found.
                         max_count = max(term_count.values())
 
                         # Displays the files given and checks to see if a filter has been applied
                         output_data = []
-                        output_data.append('Found the following files:')
+                        output_data.append('%s' % languagedick[9])
                         if len(filter) == 0:
                             for result in found_results:
                                 if term_count[tuple(result.items())] == max_count:
@@ -104,7 +123,7 @@ def search():
                 selected_entry = values['_output_'][0]
                 file_path = None
 
-                if selected_entry not in ['No search query given', 'Found the following files:', 'No files found']:
+                if selected_entry not in ['%s' % languagedick[7], '%s' % languagedick[8], '%s' % languagedick[9]]:
                     try:
                         for file in files: # Load the selected file's directory path
                             if file['title'] == selected_entry:
@@ -128,7 +147,7 @@ def search():
     except Exception as e:
         exc_type, exc_obj, exc_tb = sys.exc_info()
         fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
-        sg.popup_error(f"Error: {exc_type}\nFile: {fname}\nLine: {exc_tb.tb_lineno}\n\nThe given search query", search_query, "failed",
+        sg.popup_error(f"Error: {exc_type}\nFile: {fname}\nLine: {exc_tb.tb_lineno}\n\nThe provided search query", search_query, "failed",
                        "\nPlease reach out to Victor A Gurganus or Nicholas J Jackson!")
 
     # Close the main window

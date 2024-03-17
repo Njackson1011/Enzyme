@@ -2,44 +2,72 @@ import PySimpleGUI as sg
 import os
 import pages
 import public
+import yaml
+import json
+from datetime import datetime
+import pyautogui
 
 #When building the .exe after changes ensure that
 #1. You are in an adminsitrative windows cmd.
 #2. You are within the root directory for the Enzyme Project folder
-#3. use this code [pyinstaller --icon="public\images\iconenzymecover.ico" --noconsole --onefile --hidden-import=PySimpleGUI,json,os,sys,subprocess Enzyme.py]
+#3. use this code [pyinstaller --icon="public\images\iconenzymecover.ico" --noconsole --onefile --hidden-import=PySimpleGUI,json,os,sys,subprocess,yaml Enzyme.py]
 
-sg.LOOK_AND_FEEL_TABLE['Hakke'] = public.HAKKE_CSS
-sg.theme('Hakke')                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+config_file_path = "C:\\autostart\\Application\\Enzyme\\pages\\config.yaml"
+with open(config_file_path, "r") as language_file:
+    config = yaml.safe_load(language_file)
+    f = open('C:\\autostart\\Application\\Enzyme\\language\\'+config.get("language")+'\\enzyme.json')
+languagedick = json.load(f)
+
+with open(config_file_path, "r") as theme:
+    config = yaml.safe_load(theme)
+    fart = config.get("theme")
+theme_mapping = public.theme_mapping
+selected_theme = theme_mapping.get(fart)
+sg.LOOK_AND_FEEL_TABLE[fart] = selected_theme
+
+sg.theme(fart)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
 sg.set_options(font=public.HEADER_FONT)
 sg.set_options(icon="./public/images/iconenzymecover.ICO")
 
-def main():
-
+def contentbuilder():
     # Define main window layout
-    page_content = [[sg.Column([[sg.Button('🔑  Start my Shift', key='-BUTTON1-', size=(37,3))],
-                           [sg.Button('📖  Explore Enzyme', key='-BUTTON2-', size=(37,3))],
-                           [sg.Button('📁  My Backups', key='-BUTTON3-', size=(37,3))],
-                           [sg.Button('🔍  Search Files', key='-BUTTON4-', size=(37,3))],
-                           [sg.Button('🧪  Test RMWIN', key='-BUTTON5-', size=(37,3))],
-                           [sg.Button('🔒  End my Shift', key='-BUTTON6-', size=(37,3))]])]]
-    
-    help_content = [sg.Button('❓', key='-help-', size=(2,1), button_color='dark gray', tooltip="Opens Application Help File"),
-                    sg.Button('✔', key='-info-', size=(2,1), button_color='dark gray', tooltip="Opens Version Info File"),  
-                    sg.Button('✨', key='-boogie-', size=(2,1), button_color='dark gray', tooltip="10 Seconds of Fun"),
-                    sg.Button('⍩⃝', key='-pac-', size=(2,1), button_color='dark gray', tooltip="waka-waka-waka"),  
-                    sg.Button('⚙', key='-config-', size=(2,1), button_color="dark gray", tooltip="Enzyme File Settings")]
-    
-    footer_a = [sg.Text(("Enzyme © 2022-2023 Designed and Supported by Victor A Gurganus"), font=public.FOOTER_FONT)]
-    footer_b = [sg.Text(("Enzyme App © 2023 Coded by Nicholas J Jackson"), font=public.FOOTER_FONT)]
+    clock = [[sg.Text(datetime.now().strftime('%H:%M:%S'), key='-CLOCK-')]]
 
+    page_content = [[sg.Column([[sg.Button('🔑  %s'% languagedick[0], key='-BUTTON1-', size=(37,3))],
+                        [sg.Button('📖  %s' % languagedick[1], key='-BUTTON2-', size=(37,3))],
+                        [sg.Button('📁  %s' % languagedick[2], key='-BUTTON3-', size=(37,3))],
+                        [sg.Button('🔍  %s' % languagedick[3], key='-BUTTON4-', size=(37,3))],
+                        [sg.Button('🧪  %s' % languagedick[4], key='-BUTTON5-', size=(37,3))],
+                        [sg.Button('⍩⃝  %s' % languagedick[5], key='-BUTTON6-', size=(37,3))],
+                        [sg.Button('🔒  %s' % languagedick[6], key='-BUTTON7-', size=(37,3))]])]]
+    
+    help_content = [sg.Button('❓', key='-help-', size=(2,1), button_color='dark gray', tooltip='%s' % languagedick[7]),
+                    sg.Button('✔', key='-info-', size=(2,1), button_color='dark gray', tooltip='%s' % languagedick[8]),  
+                    sg.Button('✂️', key='-snip-', size=(2,1), button_color='dark gray', tooltip='%s' % languagedick[9]),
+                    sg.Button('⍩⃝', key='-pac-', size=(2,1), button_color='dark gray', tooltip='%s' % languagedick[10]),
+                    sg.Button('➕', key='-ticket-', size=(2,1), button_color='dark gray', tooltip='%s' % languagedick[11]),
+                    sg.Button('⚙', key='-config-', size=(2,1), button_color='dark gray', tooltip='%s' % languagedick[12])]
+    
+    footer_a = [sg.Text(('Enzyme © 2022-2024 %s' % languagedick[13]), font=public.FOOTER_FONT, text_color='#FFFFFF')]
+    footer_b = [sg.Text(('Enzyme App © 2023-2024 %s' % languagedick[14]), font=public.FOOTER_FONT, text_color='#FFFFFF')]
+
+    return [page_content, help_content, clock, footer_a, footer_b]
+
+
+def main():
+    with open(config_file_path, "r") as theme_file:
+        config = yaml.safe_load(theme_file)
+        fart = config.get("theme")
+        theme_mapping = public.theme_mapping
+        selected_theme = theme_mapping.get(fart)
     # Create the main window
-    window = sg.Window('Enzyme', layout = [page_content, help_content, footer_a, footer_b], size=(550,640), resizable=True, element_justification='center', finalize = True)
+    window = sg.Window('Enzyme', layout = contentbuilder(), size=(550,740), resizable=True, element_justification='center', finalize=True)
 
-    btnHandler = public.ButtonHandler(window)
+    btnHandler = public.ButtonHandler(window, selected_theme)
 
     # Create an event loop
     while True:
-        event, values = window.read()
+        event, values = window.read(timeout=1000)
         if event == sg.WIN_CLOSED:
             break
         elif event == '-BUTTON1-':
@@ -53,19 +81,38 @@ def main():
         elif event == '-BUTTON5-':
             pages.rmwin() 
         elif event == '-BUTTON6-':
+            pages.pacman()
+        elif event == '-BUTTON7-':
             pages.eod()
         elif event == '-help-':
             os.startfile("C:\\autostart\\batchfilehome\\EXEINFO.exe")
         elif event == '-info-':
             os.startfile("C:\\autostart\\batchfilehome\\INFO.exe")
-        elif event == '-boogie-':
-            os.startfile("C:\\autostart\\batchfilehome\\EnzymeRGBLoad.exe")
+        elif event == '-snip-':
+            os.startfile("C:\\autostart\\SnippingTool.lnk")
+            pyautogui.sleep(.5)
+            pyautogui.hotkey('ctrl', 'n')
         elif event == '-pac-':
             os.startfile("C:\\autostart\\batchfilehome\\EnzymeRGBPac.exe")
+        elif event == '-ticket-':
+            os.startfile("C:\\autostart\\batchfilehome\\NewTicket.exe")
         elif event == '-config-':
-            pages.settings() 
-        
+            pages.settings()
 
+            with open(config_file_path, "r") as theme:
+                config = yaml.safe_load(theme)
+                fart = config.get("theme")
+            theme_mapping = public.theme_mapping
+            selected_theme = theme_mapping.get(fart)
+            sg.LOOK_AND_FEEL_TABLE[fart] = selected_theme
+            sg.theme(fart) 
+
+            layout = contentbuilder()  # Rebuild the layout to reflect theme changes
+            window.close()  # Close the old window
+
+            window = sg.Window('Enzyme', layout=layout, size=(550, 640), resizable=True, element_justification='center', finalize=True)  # Create a new window with updated layout
+            btnHandler = public.ButtonHandler(window, selected_theme)
+        
         btnHandler.handleColorChange(event)
     # Close the main window
     window.close()
